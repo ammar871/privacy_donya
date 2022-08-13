@@ -4891,7 +4891,7 @@ aAw(a){if(a.indexOf("$",0)>=0)return a.replace(/\$/g,"$$$$")
 return a},
 b0D(a,b,c,d){var s=b.DO(a,d)
 if(s==null)return a
-return A.aAQ(a,s.b.index,s.gb5(s),c)},
+return A.aAQ(a,s.b.index,s.gb7(s),c)},
 aAI(a){if(/[[\]{}()*+?.\\^$|]/.test(a))return a.replace(/[[\]{}()*+?.\\^$|]/g,"\\$&")
 return a},
 hE(a,b,c){var s
@@ -4902,7 +4902,7 @@ return a.replace(s,A.aAw(c))}return A.b0B(a,b,c)},
 b0B(a,b,c){var s,r,q,p
 for(s=J.axA(b,a),s=s.gaa(s),r=0,q="";s.t();){p=s.gH(s)
 q=q+a.substring(r,p.gbC(p))+c
-r=p.gb5(p)}s=q+a.substring(r)
+r=p.gb7(p)}s=q+a.substring(r)
 return s.charCodeAt(0)==0?s:s},
 b0C(a,b,c){var s,r,q,p
 if(b===""){if(a==="")return c
@@ -4930,7 +4930,7 @@ r=J.aMG(b,a,d)
 q=r.gaa(r)
 if(!q.t())return a
 p=q.gH(q)
-return B.c.m5(a,p.gbC(p),p.gb5(p),c)},
+return B.c.m5(a,p.gbC(p),p.gb7(p),c)},
 aAQ(a,b,c,d){return a.substring(0,b)+d+a.substring(c)},
 pK:function pK(a,b){this.a=a
 this.$ti=b},
@@ -9945,7 +9945,7 @@ _.J=_.q=null
 _.N=a
 _.ak=b
 _.aq=c
-_.b6=d
+_.b4=d
 _.go=_.fy=null
 _.id=!1
 _.k2=_.k1=null
@@ -10023,8 +10023,8 @@ _.J=b
 _.N=c
 _.ak=d
 _.aq=e
-_.b6=f
-_.b7=g
+_.b4=f
+_.b5=g
 _.bQ$=h
 _.S$=i
 _.cQ$=j
@@ -12376,8 +12376,8 @@ _.J=b
 _.N=c
 _.ak=d
 _.aq=e
-_.b6=f
-_.b7=g
+_.b4=f
+_.b5=g
 _.bg=h
 _.c9=i
 _.ni$=j
@@ -13006,11 +13006,11 @@ this.b=b},
 asT:function asT(a,b){this.a=a
 this.b=b},
 asV:function asV(a){this.a=a},
-aWn(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){var s=null,r=new A.yO(l,A.FN(s,s,s,s,s,B.aj,s,s,1,B.au),o,h,j,a,d,k,n,i,g,f,e,m,b,c,A.al())
+aWn(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var s=null,r=new A.yO(m,A.FN(s,s,s,s,s,B.aj,s,s,1,B.au),p,i,k,a,e,l,o,j,h,g,f,n,c,d,A.al())
 r.gan()
 r.gaJ()
 r.CW=!1
-r.a7b(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o)
+r.a7b(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p)
 return r},
 Zk:function Zk(a,b){this.a=a
 this.b=b},
@@ -13061,7 +13061,7 @@ yO:function yO(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q){var _=this
 _.q=a
 _.ak=_.N=_.J=$
 _.aq=b
-_.b7=_.b6=$
+_.b5=_.b4=$
 _.bg=!1
 _.c9=0
 _.cp=c
@@ -13484,8 +13484,8 @@ _.J=d5
 _.N=d6
 _.ak=d7
 _.aq=d8
-_.b6=d9
-_.b7=e0
+_.b4=d9
+_.b5=e0
 _.bg=e1
 _.c9=e2
 _.cp=e3
@@ -14942,8 +14942,8 @@ r8:function r8(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,
 _.J=_.q=null
 _.N=$
 _.aq=_.ak=null
-_.b6=$
-_.b7=a
+_.b4=$
+_.b5=a
 _.bg=b
 _.hE=_.ib=_.dN=_.cp=_.c9=null
 _.fL=c
@@ -15129,8 +15129,8 @@ _.J=b
 _.N=c
 _.ak=d
 _.aq=e
-_.b6=f
-_.b7=g
+_.b4=f
+_.b5=g
 _.bg=0
 _.c9=h
 _.cp=i
@@ -15176,8 +15176,8 @@ _.J=_.q=null
 _.N=a
 _.ak=b
 _.aq=c
-_.b6=d
-_.b7=e
+_.b4=d
+_.b5=e
 _.bg=null
 _.c9=f
 _.cp=g
@@ -15632,8 +15632,8 @@ _.q=a
 _.N=_.J=null
 _.ak=$
 _.aq=b
-_.b6=c
-_.b7=!1
+_.b4=c
+_.b5=!1
 _.dN=_.cp=_.c9=_.bg=null
 _.bQ$=d
 _.S$=e
@@ -16953,8 +16953,8 @@ _.J=null
 _.N=a
 _.ak=b
 _.aq=c
-_.b6=d
-_.b7=e
+_.b4=d
+_.b5=e
 _.bQ$=f
 _.S$=g
 _.cQ$=h
@@ -17079,8 +17079,8 @@ _.J=b
 _.N=c
 _.ak=d
 _.aq=null
-_.b6=e
-_.b7=f
+_.b4=e
+_.b5=f
 _.bg=g
 _.bQ$=h
 _.S$=i
@@ -18543,8 +18543,8 @@ _.J$=b
 _.N$=c
 _.ak$=d
 _.aq$=e
-_.b6$=f
-_.b7$=g
+_.b4$=f
+_.b5$=g
 _.bg$=h
 _.RG$=i
 _.rx$=j
@@ -18749,7 +18749,7 @@ _.h4=b6
 _.J=b7
 _.N=b8
 _.aq=b9
-_.b7=c0
+_.b5=c0
 _.a=c1},
 uD:function uD(a,b,c,d,e,f,g,h,i,j){var _=this
 _.d=null
@@ -20257,7 +20257,7 @@ _.J=null
 _.N=a
 _.ak=b
 _.aq=c
-_.b6=d
+_.b4=d
 _.bQ$=e
 _.S$=f
 _.cQ$=g
@@ -21547,8 +21547,8 @@ _.J=b
 _.N=null
 _.ak=c
 _.aq=d
-_.b6=e
-_.b7=f
+_.b4=e
+_.b5=f
 _.go=_.fy=null
 _.id=!1
 _.k2=_.k1=null
@@ -23664,7 +23664,7 @@ _.J=b
 _.N=c
 _.ak=d
 _.aq=e
-_.b7=_.b6=null
+_.b5=_.b4=null
 _.bQ$=f
 _.S$=g
 _.cQ$=h
@@ -25179,14 +25179,14 @@ return A.a7(new A.ji(s,new A.a8B(),r),!0,r.j("t.E"))},
 aVP(a,b){return new A.fA(new A.apr(a).$0(),!0)},
 aVR(a){var s,r,q,p,o,n,m=a.gaU(a)
 if(!B.c.B(m,"\r\n"))return a
-s=a.gb5(a)
+s=a.gb7(a)
 r=s.gcj(s)
 for(s=m.length-1,q=0;q<s;++q)if(B.c.a0(m,q)===13&&B.c.a0(m,q+1)===10)--r
 s=a.gbC(a)
 p=a.gcK()
-o=a.gb5(a)
+o=a.gb7(a)
 o=o.gdr(o)
-p=A.SH(r,a.gb5(a).ge7(),o,p)
+p=A.SH(r,a.gb7(a).ge7(),o,p)
 o=A.hE(m,"\r\n","\n")
 n=a.gb2(a)
 return A.aio(s,p,o,A.hE(n,"\r\n","\n"))},
@@ -25196,34 +25196,34 @@ if(B.c.dq(a.gaU(a),"\n\n"))return a
 s=B.c.M(a.gb2(a),0,a.gb2(a).length-1)
 r=a.gaU(a)
 q=a.gbC(a)
-p=a.gb5(a)
+p=a.gb7(a)
 if(B.c.dq(a.gaU(a),"\n")){o=A.awo(a.gb2(a),a.gaU(a),a.gbC(a).ge7())
 o.toString
 o=o+a.gbC(a).ge7()+a.gm(a)===a.gb2(a).length}else o=!1
 if(o){r=B.c.M(a.gaU(a),0,a.gaU(a).length-1)
 if(r.length===0)p=q
-else{o=a.gb5(a)
+else{o=a.gb7(a)
 o=o.gcj(o)
 n=a.gcK()
-m=a.gb5(a)
+m=a.gb7(a)
 m=m.gdr(m)
 p=A.SH(o-1,A.aGK(s),m-1,n)
 o=a.gbC(a)
 o=o.gcj(o)
-n=a.gb5(a)
+n=a.gb7(a)
 q=o===n.gcj(n)?p:a.gbC(a)}}return A.aio(q,p,r,s)},
 aVQ(a){var s,r,q,p,o
-if(a.gb5(a).ge7()!==0)return a
-s=a.gb5(a)
+if(a.gb7(a).ge7()!==0)return a
+s=a.gb7(a)
 s=s.gdr(s)
 r=a.gbC(a)
 if(s===r.gdr(r))return a
 q=B.c.M(a.gaU(a),0,a.gaU(a).length-1)
 s=a.gbC(a)
-r=a.gb5(a)
+r=a.gb7(a)
 r=r.gcj(r)
 p=a.gcK()
-o=a.gb5(a)
+o=a.gb7(a)
 o=o.gdr(o)
 p=A.SH(r-1,q.length-B.c.rf(q,"\n")-1,o-1,p)
 return A.aio(s,p,q,B.c.dq(a.gb2(a),"\n")?B.c.M(a.gb2(a),0,a.gb2(a).length-1):a.gb2(a))},
@@ -29317,7 +29317,7 @@ hW(a,b){var s,r=this.d
 r.toString
 s=J.aOS(this.mC(r),b.a)
 r=J.k(s)
-return new A.d5(r.gbC(s),r.gb5(s))},
+return new A.d5(r.gbC(s),r.gb7(s))},
 hJ(a,b){var s=this
 if(J.h(s.d,b))return
 s.mC(b)
@@ -35847,9 +35847,9 @@ if(p>=q.c&&p<q.d)break}q=o[r]
 return new A.d5(q.c,q.d)},
 qI(){return this.gf5().z}}
 A.pV.prototype={$iacW:1,
-gb5(a){return this.c}}
+gb7(a){return this.c}}
 A.w_.prototype={$iacW:1,
-gb5(a){return this.r}}
+gb7(a){return this.r}}
 A.x5.prototype={
 avo(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=b.a
 if(a==null){s=b.gDe(b)
@@ -36120,7 +36120,7 @@ q=q.vK()}else{q.avr()
 f=B.b.gC(q.a).a
 for(;j!==f;){--k
 j=a4[k]}s.push(q.b0(0))
-q=q.vK()}if(q.x.a>=j.gb5(j)){q.GS();++k}}else throw A.c(A.b7("Unknown span type: "+A.H(j).i(0)))
+q=q.vK()}if(q.x.a>=j.gb7(j)){q.GS();++k}}else throw A.c(A.b7("Unknown span type: "+A.H(j).i(0)))
 if(s.length===o)break}for(o=s.length,e=0;e<o;++e){d=s[e]
 a2.d=a2.d+d.as
 if(a2.w===-1){n=d.ch
@@ -36258,7 +36258,7 @@ if(a-n.mE(s,q)<n.mE(s,p)-a)return new A.bC(q,B.p)
 else return new A.bC(p,B.am)}}
 A.Cx.prototype={}
 A.ab0.prototype={
-sb5(a,b){if(b.d!==B.bE)this.at=!0
+sb7(a,b){if(b.d!==B.bE)this.at=!0
 this.x=b},
 gakU(){var s=this.c-this.y,r=this.d.b,q=r.a
 switch((q==null?B.aj:q).a){case 2:return s/2
@@ -36310,7 +36310,7 @@ q=s.d
 q=q.gaZ(q)
 s=s.d
 o.as=Math.max(p,q-s.gjt(s))
-o.CO(o.Du(r))}else o.sb5(0,r)},
+o.CO(o.Du(r))}else o.sb7(0,r)},
 G1(a,b){var s,r,q,p,o,n=this
 switch(b.c.a){case 3:s=n.Q
 r=b.b-s
@@ -36354,11 +36354,11 @@ q.a.push(a)
 s=a.d
 if(s!==0){r=q.y
 q.y=r+(q.z-r+s)}q.z=q.z+a.e
-q.sb5(0,a.c)},
+q.sb7(0,a.c)},
 PQ(){var s,r,q,p,o=this,n=o.a,m=n.pop()
 if(n.length===0){o.z=o.y=0
-o.sb5(0,o.f)}else{o.z=o.z-m.e
-o.sb5(0,B.b.gC(n).c)
+o.sb7(0,o.f)}else{o.z=o.z-m.e
+o.sb7(0,B.b.gC(n).c)
 s=m.d
 if(s!==0){o.y-=s
 r=n.length-1
@@ -38026,7 +38026,7 @@ gakH(a){return a.affinity},
 gau5(a){return a.pos},
 gbC(a){return a.start},
 C5(a,b){return a.start(b)},
-gb5(a){return a.end},
+gb7(a){return a.end},
 gakZ(a){return a.ambient},
 ga_P(a){return a.spot},
 a5D(a){return a.Make()},
@@ -38367,7 +38367,7 @@ return A.aAQ(a,b,s,d)},
 a9R(a,b){var s,r,q,p,o,n,m=A.b([],t.s)
 for(s=J.axA(b,a),s=s.gaa(s),r=0,q=1;s.t();){p=s.gH(s)
 o=p.gbC(p)
-n=p.gb5(p)
+n=p.gb7(p)
 q=n-o
 if(q===0&&r===o)continue
 m.push(this.M(a,r,o))
@@ -39238,7 +39238,7 @@ $iDB:1,
 $iaFq:1}
 A.yu.prototype={
 gbC(a){return this.b.index},
-gb5(a){var s=this.b
+gb7(a){var s=this.b
 return s.index+s[0].length},
 pD(a){return this.b[a]},
 h(a,b){return this.b[b]},
@@ -39256,7 +39256,7 @@ r=m.length
 if(s<=r){q=n.a
 p=q.DO(m,s)
 if(p!=null){n.d=p
-o=p.gb5(p)
+o=p.gb7(p)
 if(p.b.index===o){if(q.b.unicode){s=n.c
 q=s+1
 if(q<r){s=B.c.W(m,s)
@@ -39266,7 +39266,7 @@ o=(s?o+1:o)+1}n.c=o
 return!0}}n.b=n.d=null
 return!1}}
 A.x4.prototype={
-gb5(a){return this.a+this.c.length},
+gb7(a){return this.a+this.c.length},
 h(a,b){if(b!==0)A.W(A.E2(b,null,null))
 return this.c},
 pD(a){if(a!==0)throw A.c(A.E2(a,null,null))
@@ -44912,7 +44912,7 @@ A.Gv.prototype={
 p(a){var s=this,r=s.co$
 if(r!=null)r.R(0,s.gjr())
 s.co$=null
-s.b4(0)},
+s.b6(0)},
 c0(){this.dI()
 this.dh()
 this.js()}}
@@ -44929,7 +44929,7 @@ s.a.c.a7(0,s.grg(s))
 s.e=new A.od(!0,$.bm())},
 p(a){var s=this
 s.a.c.R(0,s.grg(s))
-s.b4(0)},
+s.b6(0)},
 bj(a){var s,r=this,q=r.a.c
 if(a.c!==q)q.a7(0,r.grg(r))
 r.bO(a)
@@ -45309,7 +45309,7 @@ A.JZ.prototype={
 p(a){var s=this,r=s.co$
 if(r!=null)r.R(0,s.gjr())
 s.co$=null
-s.b4(0)},
+s.b6(0)},
 c0(){this.dI()
 this.dh()
 this.js()}}
@@ -45617,7 +45617,7 @@ A.K3.prototype={
 p(a){var s=this,r=s.co$
 if(r!=null)r.R(0,s.gjr())
 s.co$=null
-s.b4(0)},
+s.b6(0)},
 c0(){this.dI()
 this.dh()
 this.js()}}
@@ -45904,7 +45904,7 @@ A.K4.prototype={
 p(a){var s=this,r=s.co$
 if(r!=null)r.R(0,s.gjr())
 s.co$=null
-s.b4(0)},
+s.b6(0)},
 c0(){this.dI()
 this.dh()
 this.js()}}
@@ -47928,7 +47928,7 @@ return s==null?A.m(r).j("b4.T").a(s):s}if(b===1){s=r.b
 return s==null?A.m(r).j("b4.T").a(s):s}return r.hb(b)},
 i(a){return"Animatable("+A.d(this.a)+" \u2192 "+A.d(this.b)+")"},
 sGf(a){return this.a=a},
-sb5(a,b){return this.b=b}}
+sb7(a,b){return this.b=b}}
 A.EF.prototype={
 hb(a){return this.c.hb(1-a)}}
 A.fG.prototype={
@@ -47999,7 +47999,7 @@ A.JY.prototype={
 p(a){var s=this,r=s.co$
 if(r!=null)r.R(0,s.gjr())
 s.co$=null
-s.b4(0)},
+s.b6(0)},
 c0(){this.dI()
 this.dh()
 this.js()}}
@@ -48157,7 +48157,7 @@ sS7(a){var s=this,r=s.J
 if(a!=r){if(r!=null)s.jE(r)
 s.J=a
 if(a!=null)s.hv(a)}},
-sHm(a){var s=this.b6
+sHm(a){var s=this.b4
 if(s.gU(s).k(0,a))return
 s.sU(0,a)
 this.aj()},
@@ -48264,7 +48264,7 @@ p.au(a,b.a6(0,s.a(o).a))
 if(q.q.k1.b>0&&q.J.k1.b>0){p=a.gc6(a)
 o=b.a
 r=b.b+q.q.k1.b
-p.d1(0,new A.B(o,r,o+q.k1.a,r+q.aq),q.b6)}p=q.J
+p.d1(0,new A.B(o,r,o+q.k1.a,r+q.aq),q.b4)}p=q.J
 o=p.e
 o.toString
 p.au(a,b.a6(0,s.a(o).a))},
@@ -48366,7 +48366,7 @@ saod(a){var s=this.aq
 if(a.k(0,s.gU(s)))return
 s.sU(0,a)
 this.aj()},
-sHm(a){var s=this.b6
+sHm(a){var s=this.b4
 if(a.k(0,s.gU(s)))return
 s.sU(0,a)
 this.aj()},
@@ -48462,7 +48462,7 @@ f=p.e
 f.toString
 b=s.a(f).a2$}a2.cb(0,a1,a.ak)
 a2.cb(0,r,a.aq)
-a2.cb(0,q,a.b6)},
+a2.cb(0,q,a.b4)},
 aaa(a,b){var s,r,q,p,o,n=this.S$
 for(s=t.Wz,r=b.a,q=b.b,p=A.m(this).j("ao.1");n!=null;){o=n.e
 o.toString
@@ -48538,7 +48538,7 @@ r.e=s},
 p(a){var s=A.a(this.e,"_recognizer")
 s.k1.ac(0)
 s.pP(0)
-this.b4(0)},
+this.b6(0)},
 ahD(a){this.d=this.a.atd()},
 ahF(a){var s,r,q=this.d
 q.toString
@@ -48873,7 +48873,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.ZX.prototype={
 au(a,b){var s,r,q,p=$.av()?A.aL():new A.aF(new A.aI())
 p.sU(0,this.b)
@@ -50789,7 +50789,7 @@ if(s!=null){s=s.d
 s.aem(s.c,new A.p5(r.gCU()),!1)}},
 p(a){var s=this,r=s.d
 if(r!=null){r.R(0,s.gCU())
-s.d=null}s.b4(0)},
+s.d=null}s.b6(0)},
 acc(){var s,r,q,p=this.c
 p.toString
 p=A.aTv(p)
@@ -50976,7 +50976,7 @@ if(s.c)s.l4()
 return s.f},
 sGf(a){if(!J.h(a,this.a)){this.a=a
 this.c=!0}},
-sb5(a,b){if(!J.h(b,this.b)){this.b=b
+sb7(a,b){if(!J.h(b,this.b)){this.b=b
 this.c=!0}},
 hb(a){var s,r,q,p,o=this
 if(o.c)o.l4()
@@ -51036,7 +51036,7 @@ if(s.e)s.l4()
 return A.a(s.r,"_endArc")},
 sGf(a){if(!J.h(a,this.a)){this.a=a
 this.e=!0}},
-sb5(a,b){if(!J.h(b,this.b)){this.b=b
+sb7(a,b){if(!J.h(b,this.b)){this.b=b
 this.e=!0}},
 hb(a){var s,r=this
 if(r.e)r.l4()
@@ -51973,7 +51973,7 @@ s.toString
 if(r.iI(s))r.XC(B.mW,!1,r.f)
 r.FD()}},
 p(a){$.M.q$.f.d.A(0,this.gOz())
-this.b4(0)},
+this.b6(0)},
 gBg(){if(!this.gaqQ()){var s=this.d
 s=s!=null&&s.a!==0}else s=!0
 return s},
@@ -52380,12 +52380,12 @@ this.Z()},
 savM(a){if(this.aq===a)return
 this.aq=a
 this.Z()},
-sa0c(a){if(this.b6==a)return
-this.b6=a
+sa0c(a){if(this.b4==a)return
+this.b4=a
 this.Z()},
-gDH(){return this.b7+this.J.a*2},
-sar_(a){if(this.b7===a)return
-this.b7=a
+gDH(){return this.b5+this.J.a*2},
+sar_(a){if(this.b5===a)return
+this.b5=a
 this.Z()},
 sasu(a){if(this.bg===a)return
 this.bg=a
@@ -52448,7 +52448,7 @@ e=i-a7
 h.toString
 a7=a5.h(a4,B.aP)
 a7.toString
-c=a2.b6
+c=a2.b4
 c.toString
 c=a7.rY(c)
 c.toString
@@ -52686,7 +52686,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.CQ.prototype={
 I(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=A.aE(b)
 b.T(t.Xj)
@@ -52955,7 +52955,7 @@ A.JX.prototype={
 p(a){var s=this,r=s.co$
 if(r!=null)r.R(0,s.gjr())
 s.co$=null
-s.b4(0)},
+s.b6(0)},
 c0(){this.dI()
 this.dh()
 this.js()}}
@@ -53352,7 +53352,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.II.prototype={
 c0(){this.dI()
 this.dh()
@@ -53360,7 +53360,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.IJ.prototype={
 bj(a){this.bO(a)
 this.zJ()},
@@ -53388,7 +53388,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.S3.prototype={
 I(a,b){var s=this,r=null
 if(A.aE(b).w===B.as)return A.aDv(s.c,s.d,r,B.xT,B.bo,r,3,8,!1)
@@ -53669,7 +53669,7 @@ else q.f=!0},
 p(a){var s=this,r=s.e
 if(r!=null)r.p(0)
 A.a(s.d,"_controller").R(0,s.gEG())
-s.b4(0)},
+s.b6(0)},
 afE(){var s,r,q=this
 if(q.gxG().gcX()){s=A.a(q.d,"_controller").a.b
 r=s.a!==s.b}else r=!0
@@ -53950,9 +53950,10 @@ $1(a){var s=this.a
 return A.aDp(new A.a_C(s,null),s.ch,B.k,!0)},
 $S:228}
 A.Zi.prototype={
-aK(a){var s=this,r=a.T(t.I)
-r.toString
-return A.aWn(s.e,s.ax,s.ay,s.f,s.Q,s.z,s.y,A.aE(a).w,s.x,s.as,s.r,s.at,r.f,s.w,s.d)},
+aK(a){var s,r=this,q=a.T(t.I)
+q.toString
+s=A.aE(a)
+return A.aWn(r.e,a.T(t.l).f.ay,r.ax,r.ay,r.f,r.Q,r.z,r.y,s.w,r.x,r.as,r.r,r.at,q.f,r.w,r.d)},
 aP(a,b){var s,r=this
 b.sHn(r.e)
 b.sn(0,r.d)
@@ -53969,9 +53970,12 @@ b.sbB(0,s.f)
 b.sZF(r.as)
 b.satY(0,A.aE(a).w)
 b.scX(r.ax)
-b.sar0(r.ay)}}
+b.sar0(r.ay)
+s=a.T(t.l).f.ay
+A.a(b.b4,"_drag").b=s
+A.a(b.b5,"_tap").b=s}}
 A.yO.prototype={
-a7b(a,b,c,d,e,f,g,h,i,j,k,l,m,n,a0){var s,r,q,p=this,o=null
+a7b(a,b,c,d,e,f,g,h,i,j,k,l,m,n,a0,a1){var s,r,q,p=this,o=null
 p.yK()
 s=new A.O8(A.G(t.S,t.EG))
 r=A.Ok(o,o)
@@ -53980,12 +53984,14 @@ r.at=p.gFg()
 r.ax=p.gaiN()
 r.ay=p.gFe()
 r.ch=p.gaao()
-p.b6=r
+r.b=b
+p.b4=r
 r=A.Tg(o)
 r.r=s
 r.y1=p.gaiP()
 r.y2=p.gaiR()
-p.b7=r
+r.b=b
+p.b5=r
 r=p.q
 p.J=A.eC(B.aC,A.a(r.d,"overlayController"),o)
 q=A.eC(B.aC,A.a(r.e,"valueIndicatorController"),o)
@@ -54131,8 +54137,8 @@ Ff(a){this.DK()},
 aiQ(a){this.QO(a.a)},
 aiS(a){this.DK()},
 h8(a){return!0},
-ie(a,b){if(t.Y.b(a)&&this.dB!=null){A.a(this.b6,"_drag").qp(a)
-A.a(this.b7,"_tap").qp(a)}},
+ie(a,b){if(t.Y.b(a)&&this.dB!=null){A.a(this.b4,"_drag").qp(a)
+A.a(this.b5,"_tap").qp(a)}},
 b_(a){return 144+this.gP5()},
 aY(a){var s=this.d9.a
 s.toString
@@ -54283,7 +54289,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.Fj.prototype={
 Bh(a,b,c){return A.aFL(c,this.w)},
 d_(a){return!this.w.k(0,a.w)}}
@@ -54930,9 +54936,9 @@ k8=A.aRr(r5.ak,s.ak,r6)
 k8.toString
 k9=A.aSe(r5.aq,s.aq,r6)
 k9.toString
-l0=A.aSB(r5.b6,s.b6,r6)
+l0=A.aSB(r5.b4,s.b4,r6)
 l0.toString
-l1=A.aSC(r5.b7,s.b7,r6)
+l1=A.aSC(r5.b5,s.b5,r6)
 l1.toString
 l2=A.aSF(r5.bg,s.bg,r6)
 l2.toString
@@ -55083,7 +55089,7 @@ A.iY.prototype={
 k(a,b){var s,r=this
 if(b==null)return!1
 if(J.a2(b)!==A.H(r))return!1
-if(b instanceof A.iY)if(b.b===r.b)if(A.awT(b.d,r.d))if(b.e.k(0,r.e))if(b.f===r.f)if(b.r.k(0,r.r))if(b.w===r.w)if(b.x.k(0,r.x))if(b.y===r.y)if(b.z.k(0,r.z))if(b.as.k(0,r.as))if(b.at.k(0,r.at))if(b.ax.k(0,r.ax))if(b.ay.k(0,r.ay))if(b.ch.k(0,r.ch))if(b.CW.k(0,r.CW))if(b.cx.k(0,r.cx))if(b.cy.k(0,r.cy))if(b.db.k(0,r.db))if(b.dx.k(0,r.dx))if(b.dy.k(0,r.dy))if(b.fr.k(0,r.fr))if(b.fx.k(0,r.fx))if(b.fy.k(0,r.fy))if(b.go.k(0,r.go))if(b.id.k(0,r.id))if(b.k1.k(0,r.k1))if(b.k2.k(0,r.k2))if(b.k3.k(0,r.k3))if(b.k4.k(0,r.k4))if(b.ok.k(0,r.ok))if(b.p1.k(0,r.p1))if(b.p2.k(0,r.p2))if(b.p3.k(0,r.p3))if(b.p4.k(0,r.p4))if(b.R8.k(0,r.R8))if(b.RG.k(0,r.RG))if(b.rx.k(0,r.rx))if(b.ry.k(0,r.ry))if(b.to.k(0,r.to))if(b.x1.k(0,r.x1))if(b.x2.k(0,r.x2))if(b.xr.k(0,r.xr))if(b.y1.k(0,r.y1))if(b.y2.k(0,r.y2))if(b.aH.k(0,r.aH))if(b.aE.k(0,r.aE))if(b.aM.k(0,r.aM))if(b.bH.k(0,r.bH))if(b.h4.k(0,r.h4))if(b.F.k(0,r.F))if(b.q.k(0,r.q))if(b.J.k(0,r.J))if(b.N.k(0,r.N))if(b.ak.k(0,r.ak))if(b.aq.k(0,r.aq))if(b.b6.k(0,r.b6))if(b.b7.k(0,r.b7))if(b.bg.k(0,r.bg))if(b.c9.k(0,r.c9))if(b.cp.k(0,r.cp))if(b.dN.k(0,r.dN))if(b.ib.k(0,r.ib))if(b.hE.k(0,r.hE))if(b.fL.k(0,r.fL))if(b.d9.k(0,r.d9))if(b.h5.k(0,r.h5))if(b.eK.k(0,r.eK))if(b.dB.k(0,r.dB))if(b.da.k(0,r.da))if(b.bz.k(0,r.bz))if(b.cd.k(0,r.cd))if(b.ao.k(0,r.ao))if(b.fg.k(0,r.fg))if(b.fM.k(0,r.fM))if(b.eo.k(0,r.eo))if(b.fh===r.fh)if(b.nj.k(0,r.nj))if(b.hF.k(0,r.hF))if(b.D.k(0,r.D))s=b.aA===r.aA&&!0
+if(b instanceof A.iY)if(b.b===r.b)if(A.awT(b.d,r.d))if(b.e.k(0,r.e))if(b.f===r.f)if(b.r.k(0,r.r))if(b.w===r.w)if(b.x.k(0,r.x))if(b.y===r.y)if(b.z.k(0,r.z))if(b.as.k(0,r.as))if(b.at.k(0,r.at))if(b.ax.k(0,r.ax))if(b.ay.k(0,r.ay))if(b.ch.k(0,r.ch))if(b.CW.k(0,r.CW))if(b.cx.k(0,r.cx))if(b.cy.k(0,r.cy))if(b.db.k(0,r.db))if(b.dx.k(0,r.dx))if(b.dy.k(0,r.dy))if(b.fr.k(0,r.fr))if(b.fx.k(0,r.fx))if(b.fy.k(0,r.fy))if(b.go.k(0,r.go))if(b.id.k(0,r.id))if(b.k1.k(0,r.k1))if(b.k2.k(0,r.k2))if(b.k3.k(0,r.k3))if(b.k4.k(0,r.k4))if(b.ok.k(0,r.ok))if(b.p1.k(0,r.p1))if(b.p2.k(0,r.p2))if(b.p3.k(0,r.p3))if(b.p4.k(0,r.p4))if(b.R8.k(0,r.R8))if(b.RG.k(0,r.RG))if(b.rx.k(0,r.rx))if(b.ry.k(0,r.ry))if(b.to.k(0,r.to))if(b.x1.k(0,r.x1))if(b.x2.k(0,r.x2))if(b.xr.k(0,r.xr))if(b.y1.k(0,r.y1))if(b.y2.k(0,r.y2))if(b.aH.k(0,r.aH))if(b.aE.k(0,r.aE))if(b.aM.k(0,r.aM))if(b.bH.k(0,r.bH))if(b.h4.k(0,r.h4))if(b.F.k(0,r.F))if(b.q.k(0,r.q))if(b.J.k(0,r.J))if(b.N.k(0,r.N))if(b.ak.k(0,r.ak))if(b.aq.k(0,r.aq))if(b.b4.k(0,r.b4))if(b.b5.k(0,r.b5))if(b.bg.k(0,r.bg))if(b.c9.k(0,r.c9))if(b.cp.k(0,r.cp))if(b.dN.k(0,r.dN))if(b.ib.k(0,r.ib))if(b.hE.k(0,r.hE))if(b.fL.k(0,r.fL))if(b.d9.k(0,r.d9))if(b.h5.k(0,r.h5))if(b.eK.k(0,r.eK))if(b.dB.k(0,r.dB))if(b.da.k(0,r.da))if(b.bz.k(0,r.bz))if(b.cd.k(0,r.cd))if(b.ao.k(0,r.ao))if(b.fg.k(0,r.fg))if(b.fM.k(0,r.fM))if(b.eo.k(0,r.eo))if(b.fh===r.fh)if(b.nj.k(0,r.nj))if(b.hF.k(0,r.hF))if(b.D.k(0,r.D))s=b.aA===r.aA&&!0
 else s=!1
 else s=!1
 else s=!1
@@ -55166,7 +55172,7 @@ else s=!1
 else s=!1
 return s},
 gu(a){var s=this,r=s.d
-return A.fq([s.b,s.c,A.Kq(r.gbx(r)),A.Kq(r.gbl(r)),s.e,s.f,s.r,s.w,s.x,s.y,s.z,!1,s.as,s.at,s.ax,s.ay,s.ch,s.CW,s.cx,s.cy,s.db,s.dx,s.dy,s.fr,s.fx,s.fy,s.go,s.id,s.k1,s.k2,s.k3,s.k4,s.ok,s.p1,s.p2,s.p3,s.p4,s.R8,s.RG,s.rx,s.ry,s.to,s.x1,s.x2,s.xr,s.y1,s.y2,s.aH,s.aE,s.aM,s.bH,s.h4,s.F,s.q,s.J,s.N,s.ak,s.aq,s.b6,s.b7,s.bg,s.c9,s.cp,s.dN,s.ib,s.hE,s.fL,s.d9,s.h5,s.eK,s.dB,s.da,s.bz,s.cd,!0,s.ao,s.fg,s.fM,s.eo,s.fh,s.nj,s.hF,s.D,!0,s.aA,s.a])}}
+return A.fq([s.b,s.c,A.Kq(r.gbx(r)),A.Kq(r.gbl(r)),s.e,s.f,s.r,s.w,s.x,s.y,s.z,!1,s.as,s.at,s.ax,s.ay,s.ch,s.CW,s.cx,s.cy,s.db,s.dx,s.dy,s.fr,s.fx,s.fy,s.go,s.id,s.k1,s.k2,s.k3,s.k4,s.ok,s.p1,s.p2,s.p3,s.p4,s.R8,s.RG,s.rx,s.ry,s.to,s.x1,s.x2,s.xr,s.y1,s.y2,s.aH,s.aE,s.aM,s.bH,s.h4,s.F,s.q,s.J,s.N,s.ak,s.aq,s.b4,s.b5,s.bg,s.c9,s.cp,s.dN,s.ib,s.hE,s.fL,s.d9,s.h5,s.eK,s.dB,s.da,s.bz,s.cd,!0,s.ao,s.fg,s.fM,s.eo,s.fh,s.nj,s.hF,s.D,!0,s.aA,s.a])}}
 A.alq.prototype={
 $0(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1=this.a,b2=this.b,b3=b2.cF(b1.RG),b4=b2.cF(b1.nj)
 b2=b2.cF(b1.R8)
@@ -55221,7 +55227,7 @@ if(a9==null)a9=n
 b0=s.k1
 if(b0==null)b0=r
 j=A.aya(s.CW,s.a,f,d,a7,a5,b,e,c,a6,q,o,m,k,a0,a2,g,h,a3,r,p,a8,n,l,a9,a4,a,b0,a1,i,j)
-return A.azq(b1.eo,b1.fh,b1.hF,b4,b1.a,b1.to,b1.b,b1.k3,b1.x1,b1.dx,b1.x2,b1.xr,b1.y1,b1.y2,b1.D,b1.aH,b1.cy,b1.dy,b1.aE,b1.aM,b1.bH,j,b1.c,b1.fg,b1.h4,b1.k4,b1.F,b1.k1,b1.fr,b1.q,b1.J,b1.N,b1.p2,b1.cd,b1.d,!0,b1.ak,b1.ch,b1.fx,b1.p1,b1.CW,b1.rx,b1.ok,b1.e,b1.aq,b1.f,b1.b6,b1.b7,b1.bg,b1.r,b1.w,b1.c9,b1.at,b1.aA,b1.ay,b1.ax,b1.ry,b3,b1.cp,b1.dN,b1.db,b1.x,b1.k2,b1.go,b1.cx,b1.ib,b1.hE,b1.fy,b1.y,b1.fL,b1.d9,b1.h5,b1.ao,b1.fM,b1.eK,b2,b1.dB,b1.da,b1.p3,b1.bz,b1.p4,b1.id,!1,!0,b1.z)},
+return A.azq(b1.eo,b1.fh,b1.hF,b4,b1.a,b1.to,b1.b,b1.k3,b1.x1,b1.dx,b1.x2,b1.xr,b1.y1,b1.y2,b1.D,b1.aH,b1.cy,b1.dy,b1.aE,b1.aM,b1.bH,j,b1.c,b1.fg,b1.h4,b1.k4,b1.F,b1.k1,b1.fr,b1.q,b1.J,b1.N,b1.p2,b1.cd,b1.d,!0,b1.ak,b1.ch,b1.fx,b1.p1,b1.CW,b1.rx,b1.ok,b1.e,b1.aq,b1.f,b1.b4,b1.b5,b1.bg,b1.r,b1.w,b1.c9,b1.at,b1.aA,b1.ay,b1.ax,b1.ry,b3,b1.cp,b1.dN,b1.db,b1.x,b1.k2,b1.go,b1.cx,b1.ib,b1.hE,b1.fy,b1.y,b1.fL,b1.d9,b1.h5,b1.ao,b1.fM,b1.eK,b2,b1.dB,b1.da,b1.p3,b1.bz,b1.p4,b1.id,!1,!0,b1.z)},
 $S:231}
 A.alo.prototype={
 $2(a,b){return new A.bB(a,b.awX(this.a.d.h(0,a),this.b),t.sw)},
@@ -55509,7 +55515,7 @@ A.Jr.prototype={
 p(a){var s=this,r=s.co$
 if(r!=null)r.R(0,s.gjr())
 s.co$=null
-s.b4(0)},
+s.b6(0)},
 c0(){this.dI()
 this.dh()
 this.js()}}
@@ -58005,17 +58011,17 @@ if(p==null){s=A.aGX(q)
 r.hv(s)
 r.J=s}else p.svV(q)
 r.aq=a},
-gf3(){var s,r,q=this,p=q.b6
+gf3(){var s,r,q=this,p=q.b4
 if(p===$){s=$.av()?A.aL():new A.aF(new A.aI())
 r=$.bm()
-A.ae(q.b6,"_caretPainter")
-p=q.b6=new A.Hb(q.gafC(),s,B.k,r)}return p},
+A.ae(q.b4,"_caretPainter")
+p=q.b4=new A.Hb(q.gafC(),s,B.k,r)}return p},
 ga8B(){var s=this,r=s.c9
 if(r==null){r=A.b([],t.xT)
 if(s.ep)r.push(s.gf3())
 r=s.c9=new A.xY(r,$.bm())}return r},
 ga8C(){var s=this,r=s.cp
-if(r==null){r=A.b([s.bg,s.b7],t.xT)
+if(r==null){r=A.b([s.bg,s.b5],t.xT)
 if(!s.ep)r.push(s.gf3())
 r=s.cp=new A.xY(r,$.bm())}return r},
 afD(a){if(!J.h(this.hE,a))this.fL.$1(a)
@@ -58101,7 +58107,7 @@ this.kA()},
 sZC(a){var s=this
 if(s.aD.k(0,a))return
 s.aD=a
-s.b7.sAb(a)
+s.b5.sAb(a)
 s.aj()
 s.aB()},
 scj(a,b){var s=this,r=s.bw
@@ -58358,7 +58364,7 @@ JW(a){var s,r,q,p,o,n,m,l,k,j=this
 j.jo()
 s=j.gf7()
 if(a.a===a.b)r=A.b([],t.Lx)
-else{q=j.b7
+else{q=j.b5
 r=j.ao.wD(a,q.x,q.y)}if(r.length===0){q=j.ao
 q.oa(a.gh1(),A.a(j.lw,"_caretPrototype"))
 p=A.a(q.cx,"_caretMetrics").a
@@ -58379,7 +58385,7 @@ return A.b([new A.xr(l,B.b.gK(r).e),new A.xr(k,B.b.gC(r).e)],t.fm)}},
 Bs(a){var s,r=this
 if(!a.gcf()||a.a===a.b)return null
 r.jo()
-s=r.b7
+s=r.b5
 s=B.b.jL(r.ao.wD(A.d6(B.p,a.a,a.b,!1),s.x,s.y),null,new A.aeK())
 return s==null?null:s.cv(r.gf7())},
 nS(a){var s,r=this
@@ -59038,7 +59044,7 @@ l.toString
 a1=s.a(l).a2$}}return new A.apY(a0&&c.N===B.ar?a:m,n,m)},
 bS(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=t.k.a(A.D.prototype.ga8.call(a)),a1=a.MT(a0,A.Kv()),a2=a1.a,a3=a1.b
 if(a.ak===B.hk){s=a.S$
-for(r=t.US,q=0,p=0,o=0;s!=null;){n=a.b7
+for(r=t.US,q=0,p=0,o=0;s!=null;){n=a.b5
 n.toString
 m=s.rZ(n,!0)
 if(m!=null){q=Math.max(q,m)
@@ -59059,7 +59065,7 @@ a.bg=Math.max(0,-l)
 k=Math.max(0,l)
 j=A.bp("leadingSpace")
 i=A.bp("betweenSpace")
-r=A.aIo(a.q,a.aq,a.b6)
+r=A.aIo(a.q,a.aq,a.b4)
 h=r===!1
 switch(a.J.a){case 0:j.sfi(0)
 i.sfi(0)
@@ -59087,7 +59093,7 @@ for(r=t.US,n=a3/2,f=i.a;s!=null;){e=s.e
 e.toString
 r.a(e)
 d=a.ak
-switch(d.a){case 0:case 1:if(A.aIo(A.b_9(a.q),a.aq,a.b6)===(d===B.hj))c=0
+switch(d.a){case 0:case 1:if(A.aIo(A.b_9(a.q),a.aq,a.b4)===(d===B.hj))c=0
 else{d=s.k1
 d.toString
 c=a3-a.xN(d)}break
@@ -59097,7 +59103,7 @@ c=n-a.xN(d)/2
 break
 case 3:c=0
 break
-case 4:if(a.q===B.al){d=a.b7
+case 4:if(a.q===B.al){d=a.b5
 d.toString
 m=s.rZ(d,!0)
 c=m!=null?q-m:0}else c=0
@@ -59174,15 +59180,15 @@ return}r=s.N
 if(r!=null)r.p(0)
 s.N=b
 s.aj()
-if(s.aq==null||s.b6==null)s.Z()},
+if(s.aq==null||s.b4==null)s.Z()},
 saR(a,b){if(b==this.aq)return
 this.aq=b
 this.Z()},
-saZ(a,b){if(b==this.b6)return
-this.b6=b
+saZ(a,b){if(b==this.b4)return
+this.b4=b
 this.Z()},
-sYP(a,b){if(b===this.b7)return
-this.b7=b
+sYP(a,b){if(b===this.b5)return
+this.b5=b
 this.Z()},
 ajN(){this.bg=null},
 sU(a,b){return},
@@ -59210,15 +59216,15 @@ this.da=b
 this.OT()},
 sAl(a){return},
 u9(a){var s,r,q=this,p=q.aq
-a=A.nd(q.b6,p).r0(a)
+a=A.nd(q.b4,p).r0(a)
 p=q.N
 if(p==null)return new A.S(B.f.G(0,a.a,a.b),B.f.G(0,a.c,a.d))
 p=p.gaR(p)
-s=q.b7
+s=q.b5
 r=q.N
-return a.uE(new A.S(p/s,r.gaZ(r)/q.b7))},
+return a.uE(new A.S(p/s,r.gaZ(r)/q.b5))},
 b_(a){return this.u9(A.ne(a,1/0)).a},
-aY(a){if(this.aq==null&&this.b6==null)return 0
+aY(a){if(this.aq==null&&this.b4==null)return 0
 return this.u9(A.ne(1/0,a)).b},
 aW(a){return this.u9(A.ne(1/0,a)).b},
 h8(a){return!0},
@@ -59238,7 +59244,7 @@ r=r.b
 n=d.N
 n.toString
 m=d.ak
-l=d.b7
+l=d.b5
 k=d.bg
 j=d.hE
 i=d.q
@@ -60332,8 +60338,8 @@ sa_J(a){if(this.aq===a)return
 this.aq=a
 this.Z()},
 shO(a,b){var s,r=this
-if(r.b6===b)return
-r.b6=b
+if(r.b4===b)return
+r.b4=b
 s=b===B.dV?"\u2026":null
 r.q.sUf(0,s)
 r.Z()},
@@ -60423,7 +60429,7 @@ r.toString
 k=q.a(r).a2$
 j.a=k;++o
 r=k}return s},
-ym(a,b){var s=this.aq||this.b6===B.dV?a:1/0
+ym(a,b){var s=this.aq||this.b4===B.dV?a:1/0
 this.q.Ar(0,s,b)},
 agt(){return this.ym(1/0,0)},
 mr(){this.Cr()
@@ -60484,13 +60490,13 @@ o=p.gHb(p)
 p=j.k1=h.bh(new A.S(r,q))
 o=p.b<q||o
 n=p.a<r
-if(n||o)switch(j.b6.a){case 3:j.b7=!1
+if(n||o)switch(j.b4.a){case 3:j.b5=!1
 j.bg=null
 break
-case 0:case 2:j.b7=!0
+case 0:case 2:j.b5=!0
 j.bg=null
 break
-case 1:j.b7=!0
+case 1:j.b5=!0
 r=A.hv(i,i,i,s.c.a,"\u2026")
 q=s.e
 q.toString
@@ -60506,11 +60512,11 @@ break
 default:l=i
 k=l}j.bg=A.ayu(new A.e(l,0),new A.e(k,0),A.b([B.l,B.h8],t.t_),i,B.b0)}else{k=j.k1.b
 s=m.a
-j.bg=A.ayu(new A.e(0,k-Math.ceil(s.gaZ(s))/2),new A.e(0,k),A.b([B.l,B.h8],t.t_),i,B.b0)}break}else{j.b7=!1
+j.bg=A.ayu(new A.e(0,k-Math.ceil(s.gaZ(s))/2),new A.e(0,k),A.b([B.l,B.h8],t.t_),i,B.b0)}break}else{j.b5=!1
 j.bg=null}},
 au(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f={}
 g.Ep(t.k.a(A.D.prototype.ga8.call(g)))
-if(g.b7){s=g.k1
+if(g.b5){s=g.k1
 r=b.a
 q=b.b
 p=new A.B(r,q,r+s.a,q+s.b)
@@ -60537,7 +60543,7 @@ k=f.a.e
 k.toString
 i=m.a(k).a2$
 f.a=i;++l
-r=i}if(g.b7){if(g.bg!=null){a.gc6(a).av(0,o,n)
+r=i}if(g.b5){if(g.bg!=null){a.gc6(a).av(0,o,n)
 h=$.av()?A.aL():new A.aF(new A.aI())
 h.sn_(B.AE)
 h.sBW(g.bg)
@@ -60598,7 +60604,7 @@ b8.toString
 s=n.a(b8).a2$;++i}else{a=o.a(A.D.prototype.ga8.call(b4))
 b7.mg(b4.c9)
 a0=a.b
-a0=b4.aq||b4.b6===B.dV?a0:1/0
+a0=b4.aq||b4.b4===B.dV?a0:1/0
 b7.Ar(0,a0,a.a)
 a1=b7.a.pv(c,d,B.cX,B.bR)
 if(a1.length===0)continue
@@ -62728,12 +62734,12 @@ n.toString
 l.q=A.aFv(s,p,o,n)||l.q}s=p.a2$}},
 cY(a,b){return this.oJ(a,b)},
 AJ(a,b){this.n8(a,b)},
-au(a,b){var s,r=this,q=r.b6!==B.G&&r.q,p=r.b7
+au(a,b){var s,r=this,q=r.b4!==B.G&&r.q,p=r.b5
 if(q){q=A.a(r.CW,"_needsCompositing")
 s=r.k1
-p.saL(0,a.m_(q,b,new A.B(0,0,0+s.a,0+s.b),r.gIZ(),r.b6,p.a))}else{p.saL(0,null)
+p.saL(0,a.m_(q,b,new A.B(0,0,0+s.a,0+s.b),r.gIZ(),r.b4,p.a))}else{p.saL(0,null)
 r.n8(a,b)}},
-p(a){this.b7.saL(0,null)
+p(a){this.b5.saL(0,null)
 this.mm(0)},
 ln(a){var s
 if(this.q){s=this.k1
@@ -62887,7 +62893,7 @@ s.N=b
 if(s.b!=null)b.a7(0,s.gAy())
 s.Z()},
 skp(a){var s=this
-if(a!==s.b7){s.b7=a
+if(a!==s.b5){s.b5=a
 s.aj()
 s.aB()}},
 ai(a){this.a3l(a)
@@ -62946,11 +62952,11 @@ case 0:s=r.k1
 return new A.B(0-q,0,0+s.a+q,0+s.b)}},
 au(a,b){var s,r,q,p=this
 if(p.S$==null)return
-s=p.gaqM()&&p.b7!==B.G
+s=p.gaqM()&&p.b5!==B.G
 r=p.bg
 if(s){s=A.a(p.CW,"_needsCompositing")
 q=p.k1
-r.saL(0,a.m_(s,b,new A.B(0,0,0+q.a,0+q.b),p.gagk(),p.b7,r.a))}else{r.saL(0,null)
+r.saL(0,a.m_(s,b,new A.B(0,0,0+q.a,0+q.b),p.gagk(),p.b5,r.a))}else{r.saL(0,null)
 p.Po(a,b)}},
 p(a){this.bg.saL(0,null)
 this.mm(0)},
@@ -63087,7 +63093,7 @@ do{k=d.N.as
 k.toString
 d.bM=d.lz=0
 d.eL=k<0
-switch(d.b6.a){case 0:d.aq=d.ak
+switch(d.b4.a){case 0:d.aq=d.ak
 break
 case 1:d.aq=s*d.ak
 break}j=d.S$
@@ -65567,7 +65573,7 @@ o.d=s},
 bj(a){this.bO(a)
 this.Rk()},
 p(a){var s,r,q,p,o=this
-o.b4(0)
+o.b6(0)
 for(s=o.d,s=A.k2(s,s.r),r=o.gO8(),q=A.m(s).c;s.t();){p=s.d;(p==null?q.a(p):p).AV(r)}o.d=null},
 I(a,b){var s=this.a
 return new A.Gq(null,s.d,this.e,s.e,null)}}
@@ -65586,7 +65592,7 @@ aV(){this.bc()
 $.cl.ch$.push(new A.ap_(this))
 $.M.q$.f.d.v(0,this.gOf())},
 p(a){$.M.q$.f.d.A(0,this.gOf())
-this.b4(0)},
+this.b6(0)},
 Rz(a){this.ya(new A.aoY(this))},
 acn(a){if(this.c==null)return
 this.Rz(a)},
@@ -65786,7 +65792,7 @@ p(a){var s
 B.b.A($.M.N$,this)
 s=this.d
 if(s!=null){if(s.y1$>0)B.b.A($.M.N$,s)
-s.ix(0)}this.b4(0)},
+s.ix(0)}this.b6(0)},
 RL(a){var s,r=this
 r.a.toString
 if(r.gRY()){s=r.d
@@ -65916,7 +65922,7 @@ I(a,b){var s=this.a
 s.toString
 return s.Gm(b,A.a(this.e,"_summary"))},
 p(a){this.Mc()
-this.b4(0)},
+this.b6(0)},
 ud(){var s,r=this
 r.d=r.a.c.j4(new A.atg(r),new A.ath(r),new A.ati(r))
 r.a.toString
@@ -65985,7 +65991,7 @@ I(a,b){var s=this.a
 s.toString
 return s.d.$2(b,A.a(this.e,"_snapshot"))},
 p(a){this.d=null
-this.b4(0)},
+this.b6(0)},
 ud(){var s,r=this,q=r.a
 q.toString
 s=r.d=new A.N()
@@ -66020,7 +66026,7 @@ p(a){var s,r,q=this.d
 if(q!=null)for(q=A.js(q,q.r);q.t();){s=q.d
 r=this.d.h(0,s)
 r.toString
-s.R(0,r)}this.b4(0)},
+s.R(0,r)}this.b6(0)},
 a7w(a){var s,r=this,q=a.a,p=r.d
 if(p==null)p=r.d=A.G(t.I_,t.Cn)
 p.l(0,q,r.a9s(q))
@@ -66342,7 +66348,7 @@ s=A.fi(a)
 b.sbB(0,s)
 s=this.r
 if(b.aq!==s){b.aq=s
-b.Z()}if(B.a9!==b.b6){b.b6=B.a9
+b.Z()}if(B.a9!==b.b4){b.b4=B.a9
 b.aj()
 b.aB()}}}
 A.r3.prototype={
@@ -66397,7 +66403,7 @@ if(b.ak!==r){b.ak=r
 b.Z()}r=s.JV(a)
 if(b.aq!=r){b.aq=r
 b.Z()}r=s.y
-if(b.b6!==r){b.b6=r
+if(b.b4!==r){b.b4=r
 b.Z()}if(B.G!==b.c9){b.c9=B.G
 b.aj()
 b.aB()}}}
@@ -66757,13 +66763,13 @@ s.a=null
 this.b.aq$.dW(0)},
 $S:163}
 A.amL.prototype={
-$0(){var s,r,q=this.a,p=q.b7$
+$0(){var s,r,q=this.a,p=q.b5$
 q.bg$=!0
 s=A.a(q.ry$,"_pipelineOwner").d
 s.toString
 r=q.q$
 r.toString
-q.b7$=new A.r9(this.b,s,"[root]",new A.nG(s,t.bT),t.Cg).al6(r,t.NT.a(q.b7$))
+q.b5$=new A.r9(this.b,s,"[root]",new A.nG(s,t.bT),t.Cg).al6(r,t.NT.a(q.b5$))
 if(p==null)$.cl.HC()},
 $S:0}
 A.r9.prototype={
@@ -66942,7 +66948,7 @@ Hu(){var s,r,q=this,p={}
 p.a=null
 if(q.ak$){s=new A.aur(p,q)
 p.a=s
-$.cl.akE(s)}try{r=q.b7$
+$.cl.akE(s)}try{r=q.b5$
 if(r!=null)q.q$.alT(r)
 q.a2_()
 q.q$.apI()}finally{}r=q.ak$=!1
@@ -67043,7 +67049,7 @@ case 2:case 3:s.e.saf(0,B.cY)
 s.f.saf(0,new A.jF(s.a.c,new A.b0(A.b([],t.x8),t.jc),0))
 break}},
 p(a){this.a.c.fS(this.gCS())
-this.b4(0)},
+this.b6(0)},
 I(a,b){var s=this.a
 return s.aq7(b,this.e,s.avq(b,this.f,s.f))}}
 A.Tj.prototype={
@@ -68007,7 +68013,7 @@ b.srj(0,q.ax)
 b.sass(q.ay)
 b.sapu(!1)
 b.sl_(0,q.CW)
-s=b.b7
+s=b.b5
 s.sAa(q.cx)
 b.snH(q.cy)
 b.spr(0,q.db)
@@ -68055,7 +68061,7 @@ $.fE().d.l(0,s.d,s)},
 bj(a){this.bO(a)
 this.a.toString},
 p(a){$.fE().d.A(0,this.d)
-this.b4(0)},
+this.b6(0)},
 gJl(){var s=this.a.e
 s=$.M.q$.z.h(0,s)
 s=s==null?null:s.gL()
@@ -68287,7 +68293,7 @@ p(a){var s,r=this
 r.a.d.R(0,r.gEP())
 s=r.f
 if(s!=null)s.V(0)
-r.b4(0)},
+r.b6(0)},
 I(a,b){var s=t.tq,r=t.wS
 return A.zw(A.U([B.a3m,new A.cL(this.gajC(),new A.b0(A.b([],s),r),t._l).eU(b),B.a3a,new A.cL(this.gahd(),new A.b0(A.b([],s),r),t.D0).eU(b)],t.u,t.od),this.a.c)},
 ajm(a){return this.gajl().$1(a)}}
@@ -68339,7 +68345,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.W_.prototype={}
 A.m2.prototype={
 i(a){return"KeyEventResult."+this.b}}
@@ -68682,7 +68688,7 @@ r.gcB(r).R(0,r.gE8())
 r.y.a4(0)
 s=r.d
 if(s!=null)s.p(0)
-r.b4(0)},
+r.b6(0)},
 c1(){this.eC()
 var s=this.y
 if(s!=null)s.AZ()
@@ -69087,7 +69093,7 @@ aV(){this.bc()
 this.d=A.NX(!1,"FocusTraversalGroup",!0,!0,null,null,!0)},
 p(a){var s=this.d
 if(s!=null)s.p(0)
-this.b4(0)},
+this.b6(0)},
 I(a,b){var s=null,r=this.a,q=r.c,p=this.d
 p.toString
 return new A.yb(q,p,A.uX(!1,!1,r.f,s,!0,!0,p,!1,s,s,s,s,!0),s)}}
@@ -69837,7 +69843,7 @@ t.ym.a(this.c.gL()).sawj(a)},
 p(a){var s
 for(s=this.d,s=J.ap(s.gbl(s));s.t();)s.gH(s).p(0)
 this.d=null
-this.b4(0)},
+this.b6(0)},
 Fn(a){var s,r,q,p,o=this,n=o.d
 n.toString
 o.d=A.G(t.u,t.cD)
@@ -70300,7 +70306,7 @@ s=r.at
 if(s!=null)s.p(0)
 A.a(r.z,"_scrollAwareContext").a=null
 r.EU(null)
-r.b4(0)},
+r.b6(0)},
 c1(){var s,r=this
 r.ajP()
 r.Q9()
@@ -70471,7 +70477,7 @@ ak7(a,b){var s
 if(a==null)return
 s=this.giA()
 a.sGf(a.ah(0,s.gn(s)))
-a.sb5(0,b)},
+a.sb7(0,b)},
 MU(){var s={}
 s.a=!1
 this.r5(new A.a9P(s,this))
@@ -70571,7 +70577,7 @@ A.yl.prototype={
 p(a){var s=this,r=s.co$
 if(r!=null)r.R(0,s.gjr())
 s.co$=null
-s.b4(0)},
+s.b6(0)},
 c0(){this.dI()
 this.dh()
 this.js()}}
@@ -70931,7 +70937,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.nl.prototype={
 c7(a){return new A.yq(this,B.U,A.m(this).j("yq<nl.0>"))}}
 A.yq.prototype={
@@ -71207,7 +71213,7 @@ s.gps()
 s.gps()
 return new A.m9(new A.vI(r,q,p.e,p.d,m,o,n,l,!1,!1,!1,!1,!1,!1,B.c6,new A.AV(null),B.KS),this.a.c,null)},
 p(a){B.b.A($.M.N$,this)
-this.b4(0)}}
+this.b6(0)}}
 A.arc.prototype={
 $0(){},
 $S:0}
@@ -71865,7 +71871,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.I4.prototype={
 bj(a){this.bO(a)
 this.zJ()},
@@ -71935,7 +71941,7 @@ A.I6.prototype={
 aV(){this.bc()
 this.a.c.RC(!0)},
 p(a){this.a.c.RC(!1)
-this.b4(0)},
+this.b6(0)},
 I(a,b){var s=this.a
 return new A.xu(s.d,s.c.a.$1(b),null)},
 OU(){this.a1(new A.arF())}}
@@ -72080,12 +72086,12 @@ s.a(p)
 o=p.a
 a.dP(n,new A.e(o.a+r,o.b+q))
 n=p.a2$}},
-au(a,b){var s,r=this,q=r.q&&r.aq!==B.G,p=r.b6
+au(a,b){var s,r=this,q=r.q&&r.aq!==B.G,p=r.b4
 if(q){q=A.a(r.CW,"_needsCompositing")
 s=r.k1
 p.saL(0,a.m_(q,b,new A.B(0,0,0+s.a,0+s.b),r.gIZ(),r.aq,p.a))}else{p.saL(0,null)
 r.AJ(a,b)}},
-p(a){this.b6.saL(0,null)
+p(a){this.b4.saL(0,null)
 this.mm(0)},
 jY(a){var s,r,q=this.goc()
 for(s=t.B;q!=null;){a.$1(q)
@@ -72115,7 +72121,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.a0m.prototype={
 ai(a){var s,r,q
 this.dv(a)
@@ -72506,7 +72512,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.Kd.prototype={
 c0(){this.dI()
 this.dh()
@@ -72514,7 +72520,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.J5.prototype={
 k(a,b){if(b==null)return!1
 if(J.a2(b)!==A.H(this))return!1
@@ -72645,7 +72651,7 @@ if(s!=null)s.Gy()}B.wC.dk("TextInput.setPlatformViewClient",A.U(["platformViewId
 p(a){var s=this.e
 if(s!=null)s.p(0)
 this.e=null
-this.b4(0)}}
+this.b6(0)}}
 A.arN.prototype={
 $1(a){},
 $S:48}
@@ -72693,7 +72699,7 @@ s.f=null
 A.a($.fr.ia$,"_restorationManager").R(0,s.gEV())
 s.Es()},
 p(a){if(this.e)A.a($.fr.ia$,"_restorationManager").R(0,this.gEV())
-this.b4(0)},
+this.b6(0)},
 I(a,b){var s,r,q=this,p=q.d
 p.toString
 if(p&&q.gOH())return B.Z
@@ -72799,7 +72805,7 @@ r.eL$.al(0,new A.auD())
 s=r.bM$
 if(s!=null)s.p(0)
 r.bM$=null
-r.b4(0)}}
+r.b6(0)}}
 A.eZ.prototype={
 sn(a,b){var s=this.x
 if(b==null?s!=null:b!==s){this.x=b
@@ -72965,7 +72971,7 @@ c1(){this.eC()
 this.d=null},
 ab4(){this.a1(new A.ark(this))},
 p(a){this.f.p(0)
-this.b4(0)},
+this.b6(0)},
 gQA(){var s=this.a.c.fx
 if((s==null?null:s.gbG(s))!==B.az){s=this.a.c.a
 s=s==null?null:s.CW.a
@@ -73479,7 +73485,7 @@ k=$.hb()
 if(k!=null)k.$1(new A.bq(r,q,"widget library",l,new A.agc(j),!1))}}},
 I(a,b){return new A.e7(new A.agd(this),new A.IM(this,this.a.c,null),null,t.WA)},
 p(a){this.d=null
-this.b4(0)}}
+this.b6(0)}}
 A.agc.prototype={
 $0(){var s=null,r=this.a
 return A.b([A.fJ("The "+A.H(r).i(0)+" sending notification was",r,!0,B.ao,s,!1,s,s,B.a2,s,!1,!0,!0,B.bV,s,t.FS)],t.F)},
@@ -74471,7 +74477,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.IP.prototype={
 bj(a){this.bO(a)
 this.zJ()},
@@ -75054,7 +75060,7 @@ this.fX()},
 p(a){var s=this,r=s.b3$
 if(r!=null)r.R(0,s.gfD())
 s.b3$=null
-s.b4(0)}}
+s.b6(0)}}
 A.F8.prototype={
 aw(){return new A.Za(B.m)}}
 A.Za.prototype={
@@ -75113,7 +75119,7 @@ s.toString
 return s},
 p(a){var s=this.d
 if(s!=null){s.y2$=$.bm()
-s.y1$=0}this.b4(0)},
+s.y1$=0}this.b6(0)},
 aV(){var s,r=this
 r.bc()
 r.a.toString
@@ -75994,7 +76000,7 @@ p(a){var s=this.d
 if(s!=null)s.V(0)
 s=this.x
 if(s!=null)s.V(0)
-this.b4(0)},
+this.b6(0)},
 ajh(a){var s=this
 s.a.c.$1(a)
 if(s.d!=null&&s.aey(a.a)){s.a.as.$1(a)
@@ -76099,7 +76105,7 @@ A.Ka.prototype={
 p(a){var s=this,r=s.co$
 if(r!=null)r.R(0,s.gjr())
 s.co$=null
-s.b4(0)},
+s.b6(0)},
 c0(){this.dI()
 this.dh()
 this.js()}}
@@ -76126,7 +76132,7 @@ this.Ru()},
 p(a){var s=this.e
 s.y2$=$.bm()
 s.y1$=0
-this.b4(0)},
+this.b6(0)},
 Ru(){var s=this.d&&this.a.c
 this.e.sn(0,s)},
 I(a,b){var s=this.e
@@ -76188,7 +76194,7 @@ if(q.a.c!==s){r=q.gE6()
 s.R(0,r)
 q.a.c.a7(0,r)}},
 p(a){this.a.c.R(0,this.gE6())
-this.b4(0)},
+this.b6(0)},
 abR(){this.a1(new A.an8())},
 I(a,b){return this.a.I(0,b)}}
 A.an8.prototype={
@@ -76564,14 +76570,14 @@ else{n=new A.Xq(a.b,A.al())
 s=a.a
 n.ds()
 n.k2=s
-n.sVs(!0)}p.b7.saL(0,n)
+n.sVs(!0)}p.b5.saL(0,n)
 p.aj()},
 sakV(a){return},
 h8(a){return!0},
 ghZ(){return!0},
 bT(a){return new A.S(B.f.G(0,a.a,a.b),B.f.G(0,a.c,a.d))},
 gan(){return!0},
-LT(a,b){var s=this,r=s.N.b,q=s.b6,p=A.a(s.CW,"_needsCompositing")
+LT(a,b){var s=this,r=s.N.b,q=s.b4,p=A.a(s.CW,"_needsCompositing")
 q.saL(0,a.auu(p,b,new A.B(0,0,0+(r.c-r.a),0+(r.d-r.b)),new A.af6(s),q.a))},
 p(a){this.aq.saL(0,null)
 this.mm(0)},
@@ -76588,7 +76594,7 @@ if(p)r.saL(0,a.AR(A.a(o.CW,"_needsCompositing"),b,s,o.ga7D(),r.a))
 else{r.saL(0,null)
 o.LT(a,b)}}}
 A.af6.prototype={
-$2(a,b){var s=this.a.b7.a
+$2(a,b){var s=this.a.b5.a
 s.toString
 a.mk()
 a.qt(s)},
@@ -77399,7 +77405,7 @@ if(!s.f)return
 s.e.R(0,s.gxT())
 s.f=!1},
 p(a){this.aj9()
-this.b4(0)},
+this.b6(0)},
 I(a,b){var s,r,q,p,o,n,m=this,l=null,k=A.bp("child"),j=m.d
 if(j!=null){s=j.b
 r=0+(s.c-s.a)
@@ -77894,7 +77900,7 @@ A.a(q.e,p)
 A.a(q.f,"_wf").B_(0,q)
 if(q.gSK())q.w=q.tD()},
 p(a){A.a(this.f,"_wf").Ng()
-this.b4(0)},
+this.b6(0)},
 c1(){this.eC()
 A.a(this.e,"_rootTsb").f=null},
 bj(a){var s,r,q=this
@@ -78490,7 +78496,7 @@ else{r=new A.ay(r,A.aZg(),r.$ti.j("ay<cA.E>"))
 r=!r.gP(r)}r=r===!0}else r=!1
 if(r){for(r=p.b0(0),o=r.length,n=t.C3,m=t.fC,l=i.b,k=0;k<r.length;r.length===o||(0,A.J)(r),++k){j=r[k]
 s.push(new A.ib(h,h,j instanceof A.cd?j:new A.cd(j,!0,A.b([],n),j,h,m),i,l))}p.a4(0)}},
-a7H(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=$.aLB().r4(a),d=$.aLC().r4(a),c=e==null?0:e.gb5(e),b=d==null?a.length:d.b.index
+a7H(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=$.aLB().r4(a),d=$.aLC().r4(a),c=e==null?0:e.gb7(e),b=d==null?a.length:d.b.index
 if(b<=c){g.v(0,A.amt(g,a,f))
 return}if(c>0){s=e.b[0]
 s.toString
@@ -80171,9 +80177,9 @@ s=j.q
 if(s!=null){r=a.gc6(a)
 q=b.a
 p=b.b
-o=j.b7
+o=j.b5
 if(o==null)o=0
-n=j.b6
+n=j.b4
 if(n==null)n=0
 s.au(r,new A.B(q,p,q+o,p+n))}m=j.S$
 for(s=t.oQ,r=b.a,q=b.b;m!=null;){p=m.e
@@ -80192,8 +80198,8 @@ bS(){var s,r,q=this,p=q.S$
 p.toString
 s=t.k
 r=A.aH6(q,p,s.a(A.D.prototype.ga8.call(q)),A.b_t())
-q.b6=r.b
-q.b7=r.a
+q.b4=r.b
+q.b5=r.a
 q.k1=s.a(A.D.prototype.ga8.call(q)).bh(r)},
 ez(a){if(!(a.e instanceof A.ig))a.e=new A.ig(null,null,B.k)}}
 A.mW.prototype={
@@ -80322,7 +80328,7 @@ p(a){var s=this.f
 if(s!=null)s.p(0)
 s=this.d
 if(s!=null){s.y2$=$.bm()
-s.y1$=0}this.b4(0)},
+s.y1$=0}this.b6(0)},
 I(a,b){var s,r,q,p,o,n=this,m=null
 if(n.a.e&&n.d!=null){s=n.f
 s=s==null?m:J.aCk(s.a)
@@ -80395,7 +80401,7 @@ if(p.a.d)A.a(p.d,o).c3(0)
 if(p.a.f)A.a(p.d,o).bZ(0)},
 p(a){A.a(this.e,"_processingStateStreamSub").V(0)
 A.a(this.d,"_player").p(0)
-this.b4(0)},
+this.b6(0)},
 I(a,b){return new A.P0(new A.anf(this,b),null)}}
 A.ang.prototype={
 $1(a){var s=this.a
@@ -86161,7 +86167,7 @@ $S:201}
 A.oh.prototype={
 aw(){return new A.Yg(B.m)}}
 A.Yg.prototype={
-I(a,b){var s=null,r=A.ve(s,A.fk(B.HW,B.o,s),s,new A.asb(b),B.bC,s),q=this.a.c===0?"<p>\u062a\u062a\u0645\u062b\u0644 \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 \u0641\u064a \u0643\u064a\u0641\u064a\u0629 \u062a\u062f\u0627\u0648\u0644 \u0645\u0639\u0644\u0648\u0645\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0648\u0646\u0642\u0648\u0645 \u0628\u062a\u062d\u0635\u064a\u0644 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0648\u062a\u0628\u0627\u062f\u0644 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u0645\u0648\u0642\u0639 \u062f\u0646\u064a\u0627 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a (\u062f\u0646\u064a\u0627) \u0641\u064a \u0627\u0644\u0639\u0645\u0644 \u0648\u0627\u0644\u0627\u062d\u062a\u0641\u0627\u0638 \u0628\u0647 \u0623\u0645\u0646\u064b\u0627 (\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0648\u0627\u0631\u062f\u0629 \u0623\u062f\u0646\u0627\u0647) \u0648\u0641\u064a \u0627\u0644\u0645\u0635\u0637\u0644\u062d\u0627\u062a \u0627\u0644\u0631\u0633\u0645\u064a\u0629\u060c \u062a\u0639\u062f \u0628\u0648\u0627\u0628\u0629 \u062f\u0646\u064a\u0627 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 \u2013 \u0634.\u0630.\u0645.\u0645 \u062f\u0646\u064a\u0627 \u0627\u0644\u0631\u0642\u0645\u064a\u0629 046 \u0634\u0627\u0631\u0639 \u062c\u0639\u0641\u0631 \u0631\u0639\u0648\u062f 2083 \u062a\u0648\u0646\u0633 \u0645\u0633\u062c\u0644\u0629 \u0641\u064a \u062a\u0648\u0646\u0633 \u062a\u062d\u062a \u0631\u0642\u0645 1730967 / V \u0648\u0627\u0644\u0642\u0627\u0626\u0645\u0629 \u0628\u0627\u0644\u0639\u0645\u0644 \u0639\u0646 \u0646\u0641\u0633\u0647\u0627 \u0648\u0645\u0646 \u062e\u0644\u0627\u0644 \u0627\u0644\u0634\u0631\u0643\u0627\u062a \u0627\u0644\u062a\u0627\u0628\u0639\u0629 \u0644\u0647\u0627 \u0628\u0645\u062b\u0627\u0628\u0629 \u0645\u0631\u0627\u0642\u0628 \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0628\u064a\u0627\u0646\u0627\u062a\u0643\u0645 \u0627\u0644\u0634\u062e\u0635\u064a\u0629. </p>\n<p> \u0627\u0644\u062a\u062d\u0635\u064a\u0644 \n\u064a\u062a\u0645 \u0625\u062a\u0627\u062d\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0645\u062f\u0648\u0646\u0629 \u0641\u064a \u062f\u0646\u064a\u0627 \u0628\u0634\u0643\u0644 \u0639\u0627\u0645 \u0648\u0648\u0627\u0636\u062d \u0648\u062a\u062a\u0627\u062d \u0627\u0644\u0645\u0644\u0642\u0645\u0627\u062a \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0646\u0627 \u0641\u064a \u062a\u0648\u0646\u0633 \u0648\u0633\u062a\u0642\u0648\u0645 \u062f\u0646\u064a\u0627 \u0628\u0627\u0644\u062d\u0635\u0648\u0644 \u0639\u0644\u0649 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643 \u0648\u0646\u0642\u0644\u0647\u0627 \u0641\u064a \u0628\u064a\u0626\u0629 \u0623\u0645\u0646\u0629 \u0648\u0633\u0631\u064a\u0629 \u0648\u0645\u0636\u0645\u0648\u0646\u0629 \u0648\u0641\u064a \u062d\u0627\u0644\u0629 \u0645\u0627 \u0625\u0630\u0627 \u0627\u062e\u062a\u0631\u062a \u062a\u0632\u0648\u064a\u062f\u0646\u0627 \u0628\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629\u060c \u0641\u0625\u0646\u0643 \u0628\u0630\u0644\u0643 \u062a\u0648\u0627\u0641\u0642 \u0639\u0644\u0649 \u0646\u0642\u0644 \u0648\u062a\u062e\u0632\u064a\u0646 \u062a\u0644\u0643 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0641\u064a \u0627\u0644\u0645\u0644\u0642\u0645\u0627\u062a \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0646\u0627 \u0641\u064a \u062a\u0648\u0646\u0633 \u0648\u0646\u0642\u0648\u0645 \u0628\u062a\u062d\u0635\u064a\u0644 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062a\u0627\u0644\u064a\u0629 \u0648\u062a\u062e\u0632\u064a\u0646\u0647\u0627</p>\n<li>\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0648\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0645\u0627\u062f\u064a\u0629. \n</li>\n<li>\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0623\u062e\u0631\u0649 \u0627\u0644\u062a\u064a \u062a\u062a\u0636\u0645\u0646 \u0639\u0646\u0648\u0627\u0646 \u0628\u0631\u0648\u062a\u0648\u0643\u0648\u0644 \u0627\u0644\u0627\u0646\u062a\u0631\u0646\u062a \u0644\u0644\u0645\u0633\u062a\u062e\u062f\u0645\u064a\u0646 \u0648\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062c\u0647\u0627\u0632. \n</li>\n<li>\n\u0628\u064a\u0627\u0646\u0627\u062a \u062a\u062d\u0644\u064a\u0644 \u062c\u0648\u062c\u0644 \u0648\u0627\u0644\u062a\u064a \u064a\u0623\u062a\u064a \u0645\u0646 \u0628\u064a\u0646\u0647\u0627 \u0627\u0644\u0639\u0645\u0644 \u0648\u0627\u0644\u062c\u0646\u0633 \u0648\u0627\u0644\u0645\u0635\u0627\u0644\u062d \u0627\u0633\u062a\u0646\u0627\u062f\u064b\u0627 \u0625\u0644\u0649 \u0639\u0631\u0636 \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062a (\u0623\u064a \u0625\u0639\u0627\u062f\u0629 \u0627\u0644\u062a\u0633\u0648\u064a\u0642 \u0648\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0627\u0646\u0637\u0628\u0627\u0639 \u0634\u0628\u0643\u0629 \u0639\u0631\u0636 \u062c\u0648\u062c\u0644 \u0648\u062a\u0643\u0627\u0645\u0644 \u0645\u062f\u064a\u0631 \u062d\u0645\u0644\u0629 \u0627\u0646\u0642\u0631 \u0645\u0631\u062a\u064a\u0646 \u0623\u0648 \u0627\u0644\u062e\u0635\u0627\u0626\u0635 \u0627\u0644\u0633\u0643\u0627\u0646\u064a\u0629 \u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u062c\u0648\u062c\u0644 \u0648\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0627\u0644\u0645\u0635\u0627\u0644\u062d). \n</li>\n<li>\n\u064a\u0645\u0643\u0646 \u0644\u0644\u0632\u0648\u0627\u0631 \u062a\u062c\u0627\u0647\u0644 \u062a\u062d\u0644\u064a\u0644\u0627\u062a \u062c\u0648\u062c\u0644 \u0644\u0639\u0631\u0636 \u0627\u0644\u0625\u0639\u0644\u0627\u0646 \u0648\u062a\u062e\u0635\u064a\u0635 \u0625\u0639\u0644\u0627\u0646\u0627\u062a \u0634\u0628\u0643\u0629 \u0639\u0631\u0636 \u062c\u0648\u062c\u0644 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0625\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062a \u0623\u0648 \u0645\u0646 \u062e\u0644\u0627\u0644 \u062a\u062d\u0645\u064a\u0644 \u0648\u062a\u0631\u0643\u064a\u0628 \u0645\u0644\u062d\u0642 \u0645\u062a\u0635\u0641\u062d \u062a\u062c\u0627\u0648\u0632 \u062a\u062d\u0644\u064a\u0644\u0627\u062a \u062c\u0648\u062c\u0644. \n \n</li>\n\n<li>\n\u0644\u0646 \u064a\u062a\u0645 \u062a\u062e\u0632\u064a\u0646 \u0628\u064a\u0627\u0646\u0627\u062a \u0628\u0637\u0627\u0642\u0627\u062a \u0627\u0644\u0627\u0639\u062a\u0645\u0627\u062f / \u0627\u0644\u062f\u064a\u0646 \u0648\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0645\u0639\u0631\u0641\u0629 \u0628\u0634\u0643\u0644 \u0634\u062e\u0635\u064a \u0623\u0648 \u062a\u0623\u062c\u064a\u0631\u0647\u0627 \u0625\u0644\u0649 \u0627\u0644\u063a\u064a\u0631. \n</li>\n<p>\u0627\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 </p>\n<p> \u0646\u0642\u0648\u0645 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0645\u062d\u0635\u0644\u0629 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0625\u0644\u0649</p>\n<ul>\n<li>- \u062a\u0642\u062f\u064a\u0645 \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0646\u0627.  </li>\n<li>- \u062a\u0633\u0648\u064a\u0629 \u0627\u0644\u0646\u0632\u0627\u0639\u0627\u062a \u0648\u062d\u0644 \u0627\u0644\u0645\u0634\u0627\u0643\u0644</li>\n<li>- \u0627\u0644\u062a\u0634\u062c\u064a\u0639 \u0639\u0644\u0649 \u0627\u0644\u062a\u062f\u0627\u0648\u0644 \u0627\u0644\u0623\u0645\u0646 \u0648\u062a\u0641\u0639\u064a\u0644 \u0627\u0644\u0633\u064a\u0627\u0633\u0627\u062a \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0646\u0627. </li>\n<li>\u062a\u062e\u0635\u064a\u0635 \u062e\u0628\u0631\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0648\u062a\u0642\u064a\u064a\u0645 \u0627\u0644\u0645\u0635\u0627\u0644\u062d \u0641\u064a \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0646\u0627 \u0648\u0625\u0628\u0644\u0627\u063a \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645\u064a\u0646 \u0628\u0634\u0623\u0646 \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0648\u0627\u0644\u062a\u062d\u062f\u064a\u062b\u0627\u062a. </li>\n<li>- \u062a\u0642\u062f\u064a\u0645 \u0639\u0631\u0648\u0636 \u0627\u0644\u062a\u0633\u0648\u064a\u0642 \u0648\u0627\u0644\u0639\u0631\u0648\u0636 \u0627\u0644\u062a\u0631\u0648\u064a\u062c\u064a\u0629 \u0625\u0644\u064a\u0643\u0645</li>\n<li>- \u062a\u0642\u062f\u064a\u0645 \u0639\u0631\u0648\u0636 \u0627\u0644\u062a\u0633\u0648\u064a\u0642 \u0648\u0627\u0644\u0639\u0631\u0648\u0636 \u0627\u0644\u062a\u0631\u0648\u064a\u062c\u064a\u0629 \u0625\u0644\u064a\u0643\u0645</li>\n<li>- \u0627\u0644\u0642\u064a\u0627\u0645 \u0628\u0627\u0644\u0623\u0634\u064a\u0627\u0621 \u0627\u0644\u0623\u062e\u0631\u0649 \u0644\u0644\u0645\u0633\u062e\u062f\u0645\u064a\u0646 \u0648\u0641\u0642\u064b\u0627 \u0644\u0645\u0627 \u0647\u0648 \u0645\u0648\u0635\u0648\u0641 \u0639\u0646\u062f\u0645\u0627 \u0646\u0642\u0648\u0645 \u0628\u062a\u062d\u0635\u064a\u0644 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a. </li>\n</ul>\n<p>\u0627\u0644\u0625\u0641\u0635\u0627\u062d </p>\n<p>\u0644\u0627 \u0646\u0642\u0648\u0645 \u0628\u0628\u064a\u0639 \u0623\u0648 \u062a\u0623\u062c\u064a\u0631 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643 \u0625\u0644\u0649 \u0627\u0644\u063a\u064a\u0631 \u0644\u0623\u063a\u0631\u0627\u0636 \u0627\u0644\u062a\u0633\u0648\u064a\u0642 \u062f\u0648\u0646 \u0645\u0648\u0627\u0641\u0642\u062a\u0643\u0645 \u0627\u0644\u0635\u0631\u064a\u062d\u0629 \u0648\u064a\u062c\u0648\u0632 \u0644\u0646\u0627 \u0627\u0644\u0625\u0641\u0635\u0627\u062d \u0639\u0646 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0644\u0644\u0631\u062f \u0639\u0644\u0649 \u0627\u0644\u0645\u062a\u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0642\u0627\u0646\u0648\u0646\u064a\u0629 \u0648\u062a\u0641\u0639\u064a\u0644 \u0627\u0644\u0633\u064a\u0627\u0633\u0627\u062a \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0646\u0627 \u0648\u0627\u0644\u0631\u062f \u0639\u0644\u0649 \u0627\u0644\u0625\u062f\u0639\u0627\u0621\u0627\u062a \u0628\u0634\u0623\u0646 \u0645\u062e\u0627\u0644\u0641\u0629 \u0623\u064a \u0645\u0646 \u0639\u0645\u0644\u064a\u0627\u062a \u0627\u0644\u062a\u062f\u0648\u064a\u0646 \u0623\u0648 \u0633\u0628\u0644 \u0627\u0644\u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0623\u062e\u0631\u0649 \u0644\u0644\u062d\u0642\u0648\u0642 \u0627\u0644\u0623\u062e\u0631\u0649 \u0623\u0648 \u062d\u0645\u0627\u064a\u0629 \u062d\u0642\u0648\u0642 \u0623\u064a \u0634\u062e\u0635 \u0623\u0648 \u0627\u0644\u0633\u0644\u0627\u0645\u0629 (\u0639\u0644\u0649 \u0633\u0628\u064a\u0644 \u0627\u0644\u0645\u062b\u0627\u0644 \u0641\u064a \u062d\u0627\u0644\u0629 \u062a\u0642\u062f\u0645\u0643 \u0628\u0628\u064a\u0627\u0646\u0627\u062a \u062a\u0648\u0627\u0635\u0644 \u0632\u0627\u0626\u0641\u0629 \u0623\u0648 \u0627\u0646\u062a\u062d\u0627\u0644 \u0634\u062e\u0635\u064a\u0629 \u0623\u062e\u0631\u0649\u060c \u0641\u0625\u0646\u0647 \u064a\u062c\u0648\u0632 \u0644\u0646\u0627 \u062a\u0645\u0631\u064a\u0631 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643 \u0644\u0623\u064a \u0645\u0646 \u0627\u0644\u0623\u0637\u0631\u0627\u0641 \u0627\u0644\u0645\u062a\u0636\u0631\u0631\u0629 \u0623\u0648 \u0648\u0643\u064a\u0644\u0647\u0645 \u0623\u0648 \u0623\u064a \u0645\u0646 \u0648\u0643\u0627\u0644\u0627\u062a \u062a\u0641\u0639\u064a\u0644 \u0627\u0644\u0642\u0627\u0646\u0648\u0646). \u0643\u0645\u0627 \u064a\u062c\u0648\u0632 \u0644\u0646\u0627 \u0643\u0630\u0644\u0643 \u062a\u0628\u0627\u062f\u0644 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0645\u0639 \u0645\u0632\u0648\u062f\u064a \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0630\u064a\u0646 \u064a\u0633\u0627\u0639\u062f\u0648\u0646 \u0641\u064a \u0639\u0645\u0644\u064a\u0627\u062a\u0646\u0627 \u0627\u0644\u062a\u062c\u0627\u0631\u064a\u0629. </p>\n<p>\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0648\u0627\u0631\u062f\u0629 \u0645\u0646 \u062f\u0646\u064a\u0627 </p>\n<p>\u064a\u062c\u0648\u0632 \u0644\u0643 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062a\u064a \u0644\u0627 \u064a\u062a\u0645 \u062a\u062c\u0645\u0639\u064a\u0647\u0627 \u0645\u0646 \u062f\u0646\u064a\u0627 \u0625\u0644\u0627 \u0644\u0644\u0645\u062a\u0627\u0628\u0639\u0629 \u0645\u0639 \u0645\u0633\u062a\u062e\u062f\u0645 \u0623\u062e\u0631 \u0628\u0634\u0623\u0646 \u0628\u0639\u0636 \u0627\u0644\u0645\u0644\u0635\u0642\u0627\u062a \u0648\u0639\u062f\u0645 \u0625\u0631\u0633\u0627\u0644 \u0631\u0633\u0627\u0626\u0644 \u0628\u0631\u064a\u062f \u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u063a\u064a\u0631 \u0645\u0631\u063a\u0648\u0628 \u0641\u064a\u0647\u0627 \u0623\u0648 \u062a\u062d\u0635\u064a\u0644 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0645\u0646 \u0623\u064a \u0634\u062e\u0635 \u0644\u0645 \u064a\u0648\u0627\u0641\u0642 \u0639\u0644\u0649 \u0630\u0644\u0643. </p>\n\n<p>\u0627\u0644\u062a\u0633\u0648\u064a\u0642</p>\n<p>\u0641\u064a \u062d\u0627\u0644\u0629 \u0645\u0627 \u0625\u0630\u0627 \u0643\u0646\u062a \u0644\u0627 \u062a\u0631\u063a\u0628 \u0641\u064a \u0627\u0644\u062d\u0635\u0648\u0644 \u0639\u0644\u0649 \u0645\u0631\u0627\u0633\u0644\u0627\u062a \u062a\u0633\u0648\u064a\u0642 \u0645\u0646\u0627\u060c \u0641\u0625\u0646\u0647 \u064a\u0645\u0643\u0646\u0643 \u0628\u0628\u0633\u0627\u0637\u0629 \u0645\u0631\u0627\u0633\u0644\u062a\u0646\u0627 \u0639\u0628\u0631 \u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0641\u064a \u0623\u064a \u0648\u0642\u062a</p>\n<li>\u0627\u0644\u062a\u0633\u0648\u064a\u0642 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0623\u0646\u0638\u0645\u0629 \u062a\u062d\u0644\u064a\u0644 \u062c\u0648\u062c\u0644 </li>\n<li>\u062a\u0642\u0648\u0645 \u062f\u0646\u064a\u0627 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0646\u0638\u0645 \u0625\u0639\u0627\u062f\u0629 \u0627\u062a\u0633\u0648\u064a\u0642 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0623\u0646\u0638\u0645\u0629 \u062a\u062d\u0644\u064a\u0644 \u062c\u0648\u062c\u0644 \u0644\u0644\u0625\u0639\u0644\u0627\u0646 \u0639\u0628\u0631 \u0627\u0644\u0627\u0646\u062a\u0631\u0646\u062a</li>\n<li>\u064a\u0638\u0647\u0631 \u0645\u0648\u0631\u062f\u0648 \u0627\u0644\u063a\u064a\u0631 \u0628\u0645\u0627 \u0641\u064a \u0630\u0644\u0643 \u062c\u0648\u062c\u0644 \u0625\u0639\u0644\u0627\u0646\u0627\u062a \u062f\u0646\u064a\u0627 \u0639\u0644\u0649 \u0627\u0644\u0645\u0648\u0627\u0642\u0639 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 \u0639\u0628\u0631 \u0627\u0644\u0627\u0646\u062a\u0631\u0646\u062a. \n</li>\n<p>\u0639\u0627\u0645 </p>\n<li>\u0641\u064a \u062d\u0627\u0644\u0629 \u062f\u062e\u0648\u0644 \u0623\u064a \u0645\u0646 \u0627\u0644\u0634\u0631\u0643\u0627\u062a \u0627\u0644\u0641\u0631\u0639\u064a\u0629 \u0627\u0644\u062a\u062c\u0627\u0631\u064a\u0629 \u0627\u0644\u062a\u0627\u0628\u0639\u0629 \u0644\u0646\u0627 \u0641\u064a \u0623\u064a \u062f\u0645\u062c \u0623\u0648 \u0639\u0645\u0644\u064a\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u062d\u0648\u0627\u0630\u060c \u0641\u0625\u0646\u0647 \u064a\u062c\u0648\u0632 \u0644\u0646\u0627 \u062a\u0628\u0627\u062f\u0644 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0645\u0639 \u0634\u0631\u0643\u0629 \u0623\u062e\u0631\u0649 \u0648\u064a\u062d\u0642 \u0644\u0647\u0630\u0647 \u0627\u0644\u0634\u0631\u0643\u0629 \u0627\u0644\u0623\u062e\u0631\u0649 \u062a\u0628\u0627\u062f\u0644 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643 \u0645\u0639 \u0627\u0644\u0634\u0631\u0643\u0627\u062a \u0627\u0644\u0623\u062e\u0631\u0649 \u0644\u0643\u0646\u0647 \u062e\u0644\u0627\u0641 \u0630\u0644\u0643 \u0641\u064a \u0643\u0627\u0641\u0629 \u0627\u0644\u0623\u0648\u0642\u0627\u062a \u064a\u0644\u0632\u0645 \u0627\u062d\u062a\u0631\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643 \u0648\u0641\u0642\u064b\u0627 \u0644\u0645\u0627 \u0647\u0648 \u0648\u0627\u0631\u062f \u0641\u064a \u0647\u0630\u0647 \u0627\u0644\u0633\u064a\u0627\u0633\u0629. </li>\n<li>\u0642\u062f \u064a\u062a\u0645 \u062a\u063a\u064a\u064a\u0631 \u0633\u064a\u0627\u0633\u0627\u062a \u062f\u0646\u064a\u0627 \u0623\u0648 \u062a\u062d\u062f\u064a\u062b\u0647\u0627 \u0623\u062d\u064a\u0627\u0646\u064b\u0627 \u0644\u0644\u0648\u0641\u0627\u0621 \u0628\u0627\u0644\u0645\u062a\u0637\u0644\u0628\u0627\u062a \u0648\u0627\u0644\u0645\u0639\u0627\u064a\u064a\u0631 \u0648\u0628\u0627\u0644\u062a\u0627\u0644\u064a\u060c \u064a\u062d\u062b \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645\u064a\u0646 \u0639\u0644\u0649 \u0632\u064a\u0627\u0631\u0629 \u062a\u0644\u0643 \u0627\u0644\u0623\u0642\u0633\u0627\u0645 \u0628\u0634\u0643\u0644 \u0645\u062a\u0643\u0631\u0631 \u0644\u0643\u064a \u064a\u062a\u0645 \u062a\u0632\u0648\u064a\u062f\u0647\u0645 \u0628\u0623\u062e\u0631 \u0645\u0633\u062a\u062c\u062f\u0627\u062a \u0627\u0644\u062a\u063a\u064a\u064a\u0631\u0627\u062a \u0627\u0644\u0648\u0627\u0631\u062f\u0629 \u0641\u064a \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0648\u0633\u064a\u062a\u0645 \u062a\u0641\u0639\u064a\u0644 \u0627\u0644\u062a\u0639\u062f\u064a\u0644 \u0641\u064a \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u0630\u064a \u064a\u062a\u0645 \u062a\u062f\u0648\u064a\u0646\u0647\u0627 \u0628\u0647. </li>\n<p>\u0627\u0644\u0623\u0645\u0646 </p>\n<li>\u0646\u0642\u0648\u0645 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0639\u062f\u064a\u062f \u0645\u0646 \u0627\u0644\u0623\u062f\u0648\u0627\u062a \u0644\u062d\u0645\u0627\u064a\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643 \u0645\u0646 \u0627\u0644\u0648\u0635\u0648\u0644 \u063a\u064a\u0631 \u0627\u0644\u0645\u0635\u0631\u062d \u0628\u0647 \u0648\u0627\u0644\u0625\u0641\u0635\u0627\u062d \u0644\u0643\u0646\u0647 \u0646\u0638\u0631\u064b\u0627 \u0644\u0623\u0646\u0647 \u0644\u0627 \u064a\u0645\u0643\u0646\u0643 \u0645\u0639\u0631\u0641\u0629 \u0623\u064a \u0634\u0626 \u0645\u0645\u064a\u0632\u060c \u0644\u0630\u0627 \u0641\u0625\u0646\u0646\u0627 \u0644\u0627 \u0646\u0642\u062f\u0645 \u0623\u064a \u0636\u0645\u0627\u0646\u0627\u062a. </li>\n<p>\u062a\u0648\u0646\u0633 02 / 06 / 2023</p>\n\n\n\n":"\n<p>This privacy policy how we handle your personal information. We collect,use,and share personal information to help the DONYA website (Donya) work and to keep it safe (details below).In formal terms,donya classifieds \u2013LLC DONYA DIGITAL  046 Street JAAFAR RAOUED 2083 TUNIS registered in Tunis with number 1730967/V ,acting itself and through its subsidiaries , is the data controller of your personal information </p>\n<p>Collection </p>\n\n<p>Information posted on Donya is obviously publicly available. Our servers are located in Tunis .Donya will hold and transmit your information in a safe, confidential and secure environment. If you choose to provide us with personal information, you are consenting to the transfer and storage of that information on our servers in TUNIS. </p>\n<p>We collect and store the following personal information:</p>\n\n\n\n<ul>\n<li>*Email address, physical contact information </li>\n<li>*Statistics on page views, traffic to and from DONYA and ad data. </li>\n<li>*Other information, including users IP address and device information.</li>\n<li>*Google analytics data such as age, gender and interests based on display advertising (e.g., Remarketing, google display network impression reporting, the double click campaign manager integration, or google analytics demographics and interest reporting) </li>\n<li>*Visitors can opt-out of google analytics for display advertising and customize google display network ads using the ads settings or by downloading and installing google analytics opt-out browser add-on.* </li>\n<li>All credit /debit cards details and personally identifiable information will NOT be stored, rented or leased to any third parties. </li>\n</ul>\n<p>Use </p>\n<p>We use user\u2019s personal collected information to:</p>\n<ul>\n<li>*Provide our services.</li>\n<li>*Resolve disputes and troubleshoot problems</li>\n<li>*Encourage safe trading and enforce our policies</li>\n<li>*Customize user s experience, measure interest in our services, and inform users about services and updates.</li>\n<li>*Communicate marketing and promotional offers to you </li>\n<li>*Do other things for users as described when we collect the information.</li>\n</ul>\n<p>Disclosure</p>\n<p>We don t sell or rent your personal information to third parties for their marketing purposes without your explicit consent. We may disclose personal information to respond to legal requirements, enforce our policies, respond to claims that a posting or other contact violates others rights, or protect anyone s rights property, or safety(for example, if you submit false contact details or impersonate another person, we may pass your personal information to any aggrieved third party, their agent or to any law enforcement agency).We may also share personal information with service providers who help with our business operations.</p>\n\n<p>Using information from Donya</p>\n\n<p>You may use personal information gathered from Donya only to follow up with another user about specific </p>\n<p>Posting, not to send spam or collect personal information from someone who has not agreed to that.</p>\n<p>Marketing</p>\n<p>If you do not wish to receive marketing communication from us, you can simply email us at any time.</p>\n\n<li>Remarketing with google Analytics </li>\n<li>DONYA uses Remarketing with google analytics to advertise online.</li>\n<li>Third party vendors, including google, show Donya ads on sites across the internet.. \n</li>\n<p>General  </p>\n<li>If we our corporate affiliates are involved in a merger or acquisition, we may share personal information with another company, and this other company shall be entitled to share your personal information with other companies but at all time otherwise respecting your personal information in accordance with this policy.. </li>\n<li>Donya policies may be change or updated occasionally to meet the requirement and standards .therefore users are encouraged to frequently visit these sections in order to be updated about the changes on the website modification will be effective on the day they are posted.</li>\n<p>Security </p>\n<li>We use many tools to protect your personal information against unauthorized access and disclosure, but as you probably know nothing s perfect, so we make no guarantees.. </li>\n<p>Tunis 02/06/2023</p>\n\n\n\n",p=A.l2(s,s,B.o,s,s,s,s,s,s,s,s,14,s,s,s,s,!0,s,s,s,s,s,s,s,s)
+I(a,b){var s=null,r=A.ve(s,A.fk(B.HW,B.o,s),s,new A.asb(b),B.bC,s),q=this.a.c===0?'<p>1730967 / V \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0644\u062a\u0637\u0628\u064a\u0642 \u062f\u0646\u064a\u0627\n\u062f\u0646\u064a\u0627 \u0627\u0639\u062a\u0645\u062f\u062a \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647  \u0644\u0634\u0631\u062d \u0643\u064a\u0641\u064a\u0629 \u0642\u064a\u0627\u0645 \u0648\u062a\u062e\u0632\u064a\u0646 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062e\u062f\u0645\u0627\u062a \u062f\u0646\u064a\u0627 \n </p>\n<p>  \n\u0645\u0646 \u062e\u0644\u0627\u0644 \u062a\u062b\u0628\u064a\u062a \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0623\u0648 \u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0647\u0627 \u0623\u0648 \u0627\u0644\u062a\u0633\u062c\u064a\u0644 \u0641\u064a\u0647\u0627 \u0623\u0648 \u0627\u0644\u0648\u0635\u0648\u0644 \u0625\u0644\u064a\u0647\u0627 \u0628\u0623\u064a \u0637\u0631\u064a\u0642\u0629 \u0623\u062e\u0631\u0649\u060c \u0641\u0625\u0646\u0643 \u062a\u0648\u0627\u0641\u0642 \u0639\u0644\u0649 \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 \u0648\u062a\u0639\u0637\u064a \u0645\u0648\u0627\u0641\u0642\u0629 \u0635\u0631\u064a\u062d\u0629 \u0648\u0645\u0633\u062a\u0646\u064a\u0631\u0629 \u0644\u0645\u0639\u0627\u0644\u062c\u0629 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0648\u0641\u0642\u064b\u0627 \u0644\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647. \u0625\u0630\u0627 \u0643\u0646\u062a \u0644\u0627 \u062a\u0648\u0627\u0641\u0642 \u0639\u0644\u0649 \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647\u060c \u0641\u064a\u0631\u062c\u0649 \u0639\u062f\u0645 \u062a\u062b\u0628\u064a\u062a \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0623\u0648 \u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0647\u0627 \u0623\u0648 \u0627\u0644\u062a\u0633\u062c\u064a\u0644 \u0641\u064a\u0647\u0627 \u0623\u0648 \u0627\u0644\u0648\u0635\u0648\u0644 \u0625\u0644\u064a\u0647\u0627 \u0628\u0623\u064a \u0637\u0631\u064a\u0642\u0629 \u0623\u062e\u0631\u0649. \u062a\u062d\u062a\u0641\u0638 \u062f\u0646\u064a\u0627 \u0628\u0627\u0644\u062d\u0642 \u0641\u064a \u062a\u0639\u062f\u064a\u0644 \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 \u0641\u064a \u0623\u0648\u0642\u0627\u062a \u0645\u0639\u0642\u0648\u0644\u0629\u060c \u0644\u0630\u0627 \u064a\u0631\u062c\u0649 \u0645\u0631\u0627\u062c\u0639\u062a\u0647\u0627 \u0628\u0634\u0643\u0644 \u0645\u062a\u0643\u0631\u0631. \u0625\u0630\u0627 \u0642\u0627\u0645\u062a \u0628\u0625\u062c\u0631\u0627\u0621 \u062a\u063a\u064a\u064a\u0631\u0627\u062a \u062c\u0648\u0647\u0631\u064a\u0629 \u0623\u0648 \u0645\u0647\u0645\u0629 \u0639\u0644\u0649 \u0633\u064a\u0627\u0633\u0629 \u062f\u0646\u064a\u0627 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647\u060c \u0641\u0642\u062f \u062a\u0646\u0634\u0631 \u0625\u0634\u0639\u0627\u0631\u064b\u0627 \u0639\u0644\u0649 \u062a\u0637\u0628\u064a\u0642 \u062f\u0646\u064a\u0627 Donyawebsite \u062c\u0646\u0628\u064b\u0627 \u0625\u0644\u0649 \u062c\u0646\u0628 \u0645\u0639 \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0627\u0644\u0645\u062d\u062f\u062b\u0629. \u0625\u0646 \u0627\u0633\u062a\u0645\u0631\u0627\u0631\u0643 \u0641\u064a \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u064a\u0639\u0646\u064a \u0645\u0648\u0627\u0641\u0642\u062a\u0643 \u0639\u0644\u0649 \u0627\u0644\u062a\u063a\u064a\u064a\u0631\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0637\u0631\u0623 \u0639\u0644\u0649 \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647\n\n</p>\n<li>\u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u063a\u064a\u0631 \u0627\u0644\u0634\u062e\u0635\u064a\u0629. \n</li>\n<p> \n\u0644\u0623\u063a\u0631\u0627\u0636 \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647\u060c \u062a\u0639\u0646\u064a "\u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u063a\u064a\u0631 \u0627\u0644\u0634\u062e\u0635\u064a\u0629" \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u0644\u0627 \u062a\u062d\u062f\u062f \u0647\u0648\u064a\u062a\u0643 \u0628\u0634\u0643\u0644 \u0645\u0628\u0627\u0634\u0631. \u062a\u0634\u0645\u0644 \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u063a\u064a\u0631 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062a\u064a \u0642\u062f \u062a\u062c\u0645\u0639\u0647\u0627 \u0648\u062a\u0633\u062a\u062e\u062f\u0645\u0647\u0627\u060c \u0639\u0644\u0649 \u0633\u0628\u064a\u0644 \u0627\u0644\u0645\u062b\u0627\u0644 \u0644\u0627 \u0627\u0644\u062d\u0635\u0631: \u062e\u0635\u0627\u0626\u0635 \u0627\u0644\u062a\u0637\u0628\u064a\u0642\u060c \u0628\u0645\u0627 \u0641\u064a \u0630\u0644\u0643\u060c \u0639\u0644\u0649 \u0633\u0628\u064a\u0644 \u0627\u0644\u0645\u062b\u0627\u0644 \u0644\u0627 \u0627\u0644\u062d\u0635\u0631 \u060c \u0627\u0633\u0645 \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0648\u0627\u0633\u0645 \u0627\u0644\u062d\u0632\u0645\u0629 \u0648\u0627\u0644\u0631\u0645\u0632 \u0627\u0644\u0645\u062b\u0628\u062a \u0639\u0644\u0649 \u062c\u0647\u0627\u0632\u0643. \u0633\u064a\u062a\u0645 \u0627\u0644\u0643\u0634\u0641 \u0639\u0646 \u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u0648\u0635\u0648\u0644 \u0627\u0644\u062e\u0627\u0635 \u0628\u0643 (\u0628\u0645\u0627 \u0641\u064a \u0630\u0644\u0643 \u0645\u062b\u0644\u060c \u0627\u0644\u062a\u0648\u0635\u064a\u0629) \u0644\u062c\u0645\u064a\u0639 \u0645\u0633\u062a\u062e\u062f\u0645\u064a\n\u064a\u062c\u0648\u0632 \u0644\u0634\u0631\u0643\u0629 \u0628\u062a\u0637\u0628\u064a\u0642 \u062f\u0646\u064a\u0627 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u063a\u064a\u0631 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627  \u0648\u0627\u0644\u0625\u0641\u0635\u0627\u062d \u0639\u0646\u0647\u0627 \u0644\u0634\u0631\u0643\u0627\u0621 MoApps \u0648\u0627\u0644\u0645\u062a\u0639\u0627\u0642\u062f\u064a\u0646 \u0645\u0639\u0647\u0627 \u0644\u0623\u063a\u0631\u0627\u0636 \u062a\u062d\u0644\u064a\u0644 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u062e\u062f\u0645\u0627\u062a\u060c \u0648\u062e\u062f\u0645\u0629 \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062a\u060c \u0648\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0648\u062a\u0642\u062f\u064a\u0645\u0647\u0627\u060c \u0648\u0644\u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0648\u063a\u064a\u0631\u0647\u0627 \u0645\u0646 \u062e\u062f\u0645\u0627\u062a \u0648\u0645\u0646\u062a\u062c\u0627\u062a\u0647\u0627.\n\u0628\u064a\u0627\u0646\u0627\u062a \u0634\u062e\u0635\u064a\u0629\n\u0644\u0623\u063a\u0631\u0627\u0636 \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647\u060c \u062a\u0639\u0646\u064a "\u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629" \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u0639\u0631\u064a\u0641 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062a\u064a \u062a\u062d\u062f\u062f \u0647\u0648\u064a\u062a\u0643 \u0639\u0644\u0649 \u0648\u062c\u0647 \u0627\u0644\u062a\u062d\u062f\u064a\u062f \u0643\u0641\u0631\u062f.\n\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062a\u064a \u062a\u062c\u0645\u0639\u0647\u0627 \u0623\u0648\u0627\u0645\u0631\u0643 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u0642\u062f\u0645\u062a\u0647\u0627 \u0644\u0646\u0627 \u0637\u0648\u0627\u0639\u064a\u0629 \u0639\u0646\u062f\u0645\u0627 \u062a\u0642\u0648\u0645 \u0628\u0625\u0646\u0634\u0627\u0621 \u062d\u0633\u0627\u0628\u0643 \u0623\u0648 \u062a\u063a\u064a\u064a\u0631 \u062d\u0633\u0627\u0628\u0643\n\u0645\u0639\u0644\u0648\u0645\u0629. \u062a\u062a\u0636\u0645\u0646 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0645\u0639\u0631\u0641 google \u0627\u0644\u062e\u0627\u0635 \u0628\u0643 \u0639\u0644\u0649 facebook \u0648\u0627\u0644\u0627\u0633\u0645 \u0648\u0627\u0644\u062c\u0646\u0633 \u0648\u0627\u0644\u0645\u0648\u0642\u0639 \u0648\u0623\u0635\u062f\u0642\u0627\u0626\u0643 \u0639\u0644\u0649 facebook. \u062a\u0642\u0648\u0645 \u0623\u064a\u0636\u064b\u0627 \u0628\u062a\u062e\u0632\u064a\u0646 \u062a\u0633\u062c\u064a\u0644\u0627\u062a \u0627\u0644\u0648\u0635\u0648\u0644 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643 \u060c \u0648\u0625\u0628\u062f\u0627\u0621\u0627\u062a \u0627\u0644\u0625\u0639\u062c\u0627\u0628 \u0628\u062f\u0646\u064a\u0627  \u060c \u0648\u0639\u062f\u0645 \u0627\u0644\u0625\u0639\u062c\u0627\u0628 \u060c \u0648\u0627\u0644\u062a\u0648\u0635\u064a\u0627\u062a \u0648\u0627\u0644\u0631\u0633\u0627\u0626\u0644.\n\u0642\u062f \u062a\u0633\u062a\u062e\u062f\u0645 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u0645\u062c\u0645\u0639\u0629 \u0644\u0623\u063a\u0631\u0627\u0636 \u062a\u062d\u0644\u064a\u0644 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u062f\u0646\u064a\u0627 \u0627\u0644\u062e\u062f\u0645\u0627\u062a\u060c \u0648\u062a\u0648\u0641\u064a\u0631 \u0627\u0644\u062f\u0639\u0645 \u0644\u0644\u0639\u0645\u0644\u0627\u0621 \u0648\u0627\u0644\u062f\u0639\u0645 \u0627\u0644\u0641\u0646\u064a\u060c \u0648\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0648\u062a\u0642\u062f\u064a\u0645\u0647\u0627 (\u0628\u0645\u0627 \u0641\u064a \u0630\u0644\u0643 \u0625\u062f\u0627\u0631\u0629 \u062e\u062f\u0645\u0629 \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062a) \u0648\u0644\u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0648\u063a\u064a\u0631\u0647\u0627 \u0645\u0646 \u062e\u062f\u0645\u0627\u062a \u0648\u0645\u0646\u062a\u062c\u0627\u062a. \u0642\u062f \u062a\u062c\u0645\u0639 \u062f\u0646\u064a\u0627 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u063a\u064a\u0631 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0648\u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629.\n\n\u064a\u0631\u062c\u0649 \u0645\u0644\u0627\u062d\u0638\u0629 \u0623\u0646 \u0628\u0639\u0636 \u0645\u064a\u0632\u0627\u062a \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0642\u062f \u062a\u0643\u0648\u0646 \u0642\u0627\u062f\u0631\u0629 \u0639\u0644\u0649 \u0627\u0644\u0627\u062a\u0635\u0627\u0644 \u0628\u0645\u0648\u0627\u0642\u0639 \u0627\u0644\u0634\u0628\u0643\u0627\u062a \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643 \u0644\u0644\u062d\u0635\u0648\u0644 \u0639\u0644\u0649 \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0625\u0636\u0627\u0641\u064a\u0629 \u0639\u0646\u0643. \u0641\u064a \u0645\u062b\u0644 \u0647\u0630\u0647 \u0627\u0644\u062d\u0627\u0644\u0627\u062a\u060c \u0642\u062f \u062a\u062a\u0645\u0643\u0646 \u0645\u0646 \u062c\u0645\u0639 \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0645\u0639\u064a\u0646\u0629 \u0645\u0646 \u0645\u0644\u0641\u0643 \u0627\u0644\u062a\u0639\u0631\u064a\u0641\u064a \u0644\u062f\u0646\u064a\u0627 \u0639\u0644\u0649 \u0627\u0644\u0634\u0628\u0643\u0627\u062a \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0629 \u0639\u0646\u062f\u0645\u0627 \u064a\u0633\u0645\u062d \u0645\u0648\u0642\u0639 \u0627\u0644\u0634\u0628\u0643\u0629 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0629 \u0627\u0644\u062e\u0627\u0635 \u0628\u0643 \u0628\u0630\u0644\u0643\u060c \u0648\u0639\u0646\u062f\u0645\u0627 \u062a\u0648\u0627\u0641\u0642 \u0639\u0644\u0649 \u0627\u0644\u0633\u0645\u0627\u062d \u0644\u0645\u0648\u0642\u0639\u0643 \u0639\u0644\u0649 \u0627\u0644\u0634\u0628\u0643\u0629 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0629 \u0628\u0625\u062a\u0627\u062d\u0629 \u0647\u0630\u0647 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0644\u062a\u0637\u0628\u064a\u0642\u0627\u062a\u064a. \u0642\u062f \u062a\u062a\u0636\u0645\u0646 \u0647\u0630\u0647 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a\u060c \u0639\u0644\u0649 \u0633\u0628\u064a\u0644 \u0627\u0644\u0645\u062b\u0627\u0644 \u0644\u0627 \u0627\u0644\u062d\u0635\u0631\u060c \u0627\u0633\u0645\u0643 \u0648\u0635\u0648\u0631\u0629 \u0645\u0644\u0641\u0643 \u0627\u0644\u0634\u062e\u0635\u064a \u0648\u0627\u0644\u062c\u0646\u0633 \u0648\u0645\u0639\u0631\u0641 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0648\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0648\u0628\u0644\u062f\u0643 \u0644\u063a\u062a\u0643\u060c \u0648\u0645\u0646\u0637\u0642\u062a\u0643 \u0627\u0644\u0632\u0645\u0646\u064a\u0629\u060c \u0648\u0627\u0644\u0645\u0646\u0638\u0645\u0627\u062a \u0648\u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0627\u0644\u0645\u0648\u062c\u0648\u062f\u0629 \u0639\u0644\u0649 \u0635\u0641\u062d\u0629 \u0645\u0644\u0641\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u060c \u0648\u0627\u0644\u0623\u0633\u0645\u0627\u0621 \u0648\u0635\u0648\u0631 \u0627\u0644\u0645\u0644\u0641 \u0627\u0644\u0634\u062e\u0635\u064a \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0645\u0648\u0642\u0639 "\u0627\u0644\u0623\u0635\u062f\u0642\u0627\u0621" \u0639\u0644\u0649 \u0634\u0628\u0643\u0629 \u0627\u0644\u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a \u0648\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0623\u062e\u0631\u0649 \u0627\u0644\u062a\u064a \u0642\u0645\u062a \u0628\u062a\u0636\u0645\u064a\u0646\u0647\u0627 \u0641\u064a \u0645\u0644\u0641 \u062a\u0639\u0631\u064a\u0641 \u0645\u0648\u0642\u0639 \u0627\u0644\u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a \u0627\u0644\u062e\u0627\u0635 \u0628\u0643. \u0642\u062f \u062a\u0642\u0648\u0645 \u0628\u0631\u0628\u0637 \u0648 / \u0623\u0648 \u062f\u0645\u062c \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u062f\u0646\u064a\u0627 \u0648\u0645\u0648\u0627\u0642\u0639 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u062c\u0645\u0639\u0647\u0627 \u0648 / \u0623\u0648 \u0627\u0644\u062d\u0635\u0648\u0644 \u0639\u0644\u064a\u0647\u0627 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0645\u0648\u0627\u0642\u0639 \u062f\u0646\u064a\u0627 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0629 \u0647\u0630\u0647 \u0648\u0641\u0642\u064b\u0627 \u0644\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647.\n\u0625\u0641\u0634\u0627\u0621 \u0648\u0646\u0642\u0644 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629\n\u062a\u0642\u0648\u0645 \u062f\u0646\u064a\u0627 \u062a\u0642\u0648\u0645 \u0628\u062c\u0645\u0639 \u0648\u0645\u0639\u0627\u0644\u062c\u0629 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0639\u0644\u0649 \u0623\u0633\u0627\u0633 \u0637\u0648\u0639\u064a \u0648\u0644\u064a\u0633 \u0641\u064a \u0645\u062c\u0627\u0644 \u0628\u064a\u0639 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0625\u0644\u0649 \u0623\u0637\u0631\u0627\u0641 \u062b\u0627\u0644\u062b\u0629. \u0648\u0645\u0639 \u0630\u0644\u0643\u060c \u0642\u062f \u064a\u062a\u0645 \u0627\u0644\u0643\u0634\u0641 \u0639\u0646 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0641\u064a \u0628\u0639\u0636 \u0627\u0644\u0623\u062d\u064a\u0627\u0646 \u0648\u0641\u0642\u064b\u0627 \u0644\u0644\u062a\u0634\u0631\u064a\u0639\u0627\u062a \u0627\u0644\u0645\u0639\u0645\u0648\u0644 \u0628\u0647\u0627 \u0648\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647. \u0628\u0627\u0644\u0625\u0636\u0627\u0641\u0629 \u0625\u0644\u0649 \u0630\u0644\u0643\u060c \u064a\u062c\u0648\u0632 \u0644\u0634\u0631\u0643\u0629 \u062f\u0646\u064a\u0627 \u0627\u0644\u0643\u0634\u0641 \u0639\u0646 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0644\u0634\u0631\u0643\u0627\u062a\u0647\u0627 \u0627\u0644\u0623\u0645 \u0648\u0627\u0644\u0634\u0631\u0643\u0627\u062a \u0627\u0644\u062a\u0627\u0628\u0639\u0629 \u0644\u0647\u0627 \u0648\u0641\u0642\u064b\u0627 \u0644\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647.\n\n\u0642\u062f \u062a\u0642\u0648\u0645 \u062f\u0646\u064a\u0627 \u0628\u062a\u0648\u0638\u064a\u0641 \u0648\u0643\u0644\u0627\u0621 \u0648\u0645\u0642\u0627\u0648\u0644\u064a\u0646 \u0644\u062c\u0645\u0639 \u0648\u0645\u0639\u0627\u0644\u062c\u0629 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0646\u064a\u0627\u0628\u0629 \u0639\u0646 Mo Apps \u0648\u0641\u064a \u0645\u062b\u0644 \u0647\u0630\u0647 \u0627\u0644\u062d\u0627\u0644\u0627\u062a \u0633\u064a\u062a\u0645 \u062a\u0648\u062c\u064a\u0647 \u0647\u0624\u0644\u0627\u0621 \u0627\u0644\u0648\u0643\u0644\u0627\u0621 \u0648\u0627\u0644\u0645\u0642\u0627\u0648\u0644\u064a\u0646 \u0644\u0644\u0627\u0645\u062a\u062b\u0627\u0644 \u0644\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0646\u0627 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0641\u0642\u0637 \u0644\u0644\u0623\u063a\u0631\u0627\u0636 \u0627\u0644\u062a\u064a \u062a\u0645 \u0625\u0634\u0631\u0627\u0643 \u0627\u0644\u0637\u0631\u0641 \u0627\u0644\u062b\u0627\u0644\u062b \u0645\u0646 \u0623\u062c\u0644\u0647\u0627 \u0628\u0648\u0627\u0633\u0637\u0629 MoApps. \u0644\u0627 \u064a\u062c\u0648\u0632 \u0644\u0647\u0624\u0644\u0627\u0621 \u0627\u0644\u0648\u0643\u0644\u0627\u0621 \u0648\u0627\u0644\u0645\u0642\u0627\u0648\u0644\u064a\u0646 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0644\u0623\u063a\u0631\u0627\u0636 \u0627\u0644\u062a\u0633\u0648\u064a\u0642 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0647\u0645. \u0642\u062f \u062a\u0633\u062a\u062e\u062f\u0645 \u0645\u0648\u0641\u0631\u064a \u062e\u062f\u0645\u0627\u062a \u062a\u0627\u0628\u0639\u064a\u0646 \u0644\u062c\u0647\u0627\u062a \u062e\u0627\u0631\u062c\u064a\u0629 \u0645\u062b\u0644 \u0645\u0639\u0627\u0644\u062c\u0627\u062a \u0628\u0637\u0627\u0642\u0627\u062a \u0627\u0644\u0627\u0626\u062a\u0645\u0627\u0646 \u0648\u0645\u0642\u062f\u0645\u064a \u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0648\u0648\u0643\u0644\u0627\u0621 \u0627\u0644\u0634\u062d\u0646 \u0648\u0645\u062d\u0644\u0644\u064a \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0648\u0645\u0642\u062f\u0645\u064a \u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a \u0627\u0644\u0623\u0639\u0645\u0627\u0644. \u064a\u062d\u0642 \u0644\u062f\u0646\u064a\u0627 \u0645\u0634\u0627\u0631\u0643\u0629 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0639\u0646\u062f \u0627\u0644\u0636\u0631\u0648\u0631\u0629 \u0644\u0644\u0623\u0637\u0631\u0627\u0641 \u0627\u0644\u062b\u0627\u0644\u062b\u0629 \u0627\u0644\u0645\u0630\u0643\u0648\u0631\u0629 \u0623\u0639\u0644\u0627\u0647 \u0644\u062a\u0642\u062f\u064a\u0645 \u062e\u062f\u0645\u0627\u062a\u0647\u0645 \u0625\u0644\u0649 MoApps. \u062f\u0646\u064a\u0627 \u0644\u064a\u0633\u062a \u0645\u0633\u0624\u0648\u0644\u0629 \u0639\u0646 \u0623\u0641\u0639\u0627\u0644 \u0648\u0625\u063a\u0641\u0627\u0644\u0627\u062a \u0647\u0630\u0647 \u0627\u0644\u0623\u0637\u0631\u0627\u0641 \u0627\u0644\u062b\u0627\u0644\u062b\u0629\u060c \u0628\u0627\u0633\u062a\u062b\u0646\u0627\u0621 \u0645\u0627 \u064a\u0646\u0635 \u0639\u0644\u064a\u0647 \u0627\u0644\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0625\u0644\u0632\u0627\u0645\u064a.\n\n\u0639\u0646 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0644\u0623\u0637\u0631\u0627\u0641 \u062b\u0627\u0644\u062b\u0629 \u0643\u0645\u0627 \u0647\u0648 \u0645\u0637\u0644\u0648\u0628 \u0645\u0646 \u0642\u0628\u0644. \n\u062f\u0646\u064a\u0627 \u0642\u062f \u062a\u0643\u0634\u0641 \u0639\u0646\u062f \u062a\u0637\u0628\u064a\u0642 \u0627\u0644\u0642\u0627\u0646\u0648\u0646 \u0623\u0648 \u063a\u064a\u0631\u0647\u0645 \u0645\u0646 \u0627\u0644\u0645\u0633\u0624\u0648\u0644\u064a\u0646 \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u064a\u0646 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u0627\u0644\u062a\u062d\u0642\u064a\u0642 \u0641\u064a \u0627\u0644\u0627\u062d\u062a\u064a\u0627\u0644 \u0623\u0648 \u0627\u0646\u062a\u0647\u0627\u0643\u0627\u062a \u0627\u0644\u0645\u0644\u0643\u064a\u0629 \u0627\u0644\u0641\u0643\u0631\u064a\u0629 \u0623\u0648 \u0623\u064a \u0646\u0634\u0627\u0637 \u0622\u062e\u0631 \u063a\u064a\u0631 \u0642\u0627\u0646\u0648\u0646\u064a \u0623\u0648 \u0642\u062f \u064a\u0639\u0631\u0636\u0643 \u0623\u0646\u062a \u0623\u0648 \u0644\u0644\u0645\u0633\u0624\u0648\u0644\u064a\u0629 \u0627\u0644\u0642\u0627\u0646\u0648\u0646\u064a\u0629. \u062f\u0646\u064a\u0627 \u0642\u062f \u062a\u0641\u0635\u062d \u0623\u064a\u0636\u064b\u0627 \u0639\u0646 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0644\u0623\u0637\u0631\u0627\u0641 \u062b\u0627\u0644\u062b\u0629 \u0639\u0646\u062f\u0645\u0627 \u064a\u0643\u0648\u0646 \u0644\u062f\u0649 \u0633\u0628\u0628 \u0644\u0644\u0627\u0639\u062a\u0642\u0627\u062f \u0628\u0623\u0646 \u0627\u0644\u0643\u0634\u0641 \u0636\u0631\u0648\u0631\u064a \u0644\u0645\u0639\u0627\u0644\u062c\u0629 \u0627\u0644\u0625\u0635\u0627\u0628\u0629 \u0627\u0644\u0645\u062d\u062a\u0645\u0644\u0629 \u0623\u0648 \u0627\u0644\u0641\u0639\u0644\u064a\u0629 \u0623\u0648 \u0627\u0644\u062a\u062f\u062e\u0644 \u0641\u064a \u062d\u0642\u0648\u0642 MoApps \u0623\u0648 \u0645\u0645\u062a\u0644\u0643\u0627\u062a\u0647\u0627 \u0623\u0648 \u0639\u0645\u0644\u064a\u0627\u062a\u0647\u0627 \u0623\u0648 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645\u064a\u0646 \u0623\u0648 \u063a\u064a\u0631\u0647\u0645 \u0645\u0645\u0646 \u0642\u062f \u064a\u062a\u0639\u0631\u0636\u0648\u0646 \u0644\u0644\u0623\u0630\u0649 \u0623\u0648 \u0642\u062f \u064a\u062a\u0639\u0631\u0636\u0648\u0646 \u0644\u0644\u062e\u0633\u0627\u0631\u0629 \u0623\u0648 \u0627\u0644\u0636\u0631\u0631\u060c \u0623\u0648 \u064a\u0639\u062a\u0642\u062f \u062f\u0646\u064a\u0627 \u0623\u0646 \u0647\u0630\u0627 \u0627\u0644\u0643\u0634\u0641 \u0636\u0631\u0648\u0631\u064a \u0644\u062d\u0645\u0627\u064a\u0629 \u062d\u0642\u0648\u0642 \u062f\u0646\u064a\u0627\u060c \u0648\u0645\u0643\u0627\u0641\u062d\u0629 \u0627\u0644\u0627\u062d\u062a\u064a\u0627\u0644 \u0648 / \u0623\u0648 \u0627\u0644\u0627\u0645\u062a\u062b\u0627\u0644 \u0644\u0625\u062c\u0631\u0627\u0621 \u0642\u0636\u0627\u0626\u064a\u060c \u0623\u0648 \u0623\u0645\u0631 \u0645\u062d\u0643\u0645\u0629\u060c \u0623\u0648 \u0625\u062c\u0631\u0627\u0621 \u0642\u0627\u0646\u0648\u0646\u064a \u0645\u0642\u062f\u0645 \u0639\u0644\u0649 MoApps. \u0625\u0644\u0649 \u0627\u0644\u062d\u062f \u0627\u0644\u0630\u064a \u064a\u0633\u0645\u062d \u0628\u0647 \u0627\u0644\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0645\u0639\u0645\u0648\u0644 \u0628\u0647\u060c \u062f\u0646\u064a\u0627 \u062a\u0628\u0630\u0644 \u062c\u0647\u0648\u062f\u064b\u0627 \u0645\u0639\u0642\u0648\u0644\u0629 \u0644\u0625\u0639\u0644\u0627\u0645\u0643 \u0628\u0647\u0630\u0627 \u0627\u0644\u0643\u0634\u0641 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0645\u0648\u0642\u0639 MoApps \u0639\u0644\u0649 \u0627\u0644\u0648\u064a\u0628 \u0623\u0648 \u0628\u0637\u0631\u064a\u0642\u0629 \u0623\u062e\u0631\u0649 \u0645\u0639\u0642\u0648\u0644\u0629.\n\u0627\u0644\u0636\u0645\u0627\u0646\u0627\u062a\n\u062a\u062a\u0628\u0639 \u0645\u0639\u0627\u064a\u064a\u0631 \u0627\u0644\u0635\u0646\u0627\u0639\u0629 \u0627\u0644\u0645\u0642\u0628\u0648\u0644\u0629 \u0639\u0645\u0648\u0645\u064b\u0627 \u0648\u062a\u062d\u0627\u0641\u0638 \u0639\u0644\u0649 \u0636\u0645\u0627\u0646\u0627\u062a \u0645\u0639\u0642\u0648\u0644\u0629 \u0644\u0645\u062d\u0627\u0648\u0644\u0629 \u0636\u0645\u0627\u0646 \u0623\u0645\u0646 \u0648\u0633\u0644\u0627\u0645\u0629 \u0648\u062e\u0635\u0648\u0635\u064a\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0645\u0648\u062c\u0648\u062f\u0629 \u0641\u064a \u062d\u0648\u0632\u0629 MoApps. \u0641\u0642\u0637 \u0627\u0644\u0623\u0634\u062e\u0627\u0635 \u0627\u0644\u0630\u064a\u0646 \u064a\u062d\u062a\u0627\u062c\u0648\u0646 \u0625\u0644\u0649 \u0645\u0639\u0627\u0644\u062c\u0629 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u0625\u0646\u062c\u0627\u0632 \u0645\u0647\u0627\u0645\u0647\u0645 \u0648\u0641\u0642\u064b\u0627 \u0644\u0623\u063a\u0631\u0627\u0636 \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 \u0648\u0644\u0623\u063a\u0631\u0627\u0636 \u0625\u062c\u0631\u0627\u0621 \u0627\u0644\u0635\u064a\u0627\u0646\u0629 \u0627\u0644\u0641\u0646\u064a\u0629\u060c \u064a\u0645\u0643\u0646\u0647\u0645 \u0627\u0644\u0648\u0635\u0648\u0644 \u0625\u0644\u0649 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u0645\u0648\u062c\u0648\u062f\u0629 \u0641\u064a \u062d\u0648\u0632\u0629 MoApps. \u064a\u062a\u0645 \u062a\u062e\u0632\u064a\u0646 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u062a\u064a \u064a\u062c\u0645\u0639\u0647\u0627 \u062f\u0646\u064a\u0627 \u0641\u064a \u0628\u064a\u0626\u0627\u062a \u062a\u0634\u063a\u064a\u0644 \u0622\u0645\u0646\u0629 \u063a\u064a\u0631 \u0645\u062a\u0627\u062d\u0629 \u0644\u0644\u062c\u0645\u0647\u0648\u0631. \u0644\u0645\u0646\u0639 \u0627\u0644\u0648\u0635\u0648\u0644 \u063a\u064a\u0631 \u0627\u0644\u0645\u0635\u0631\u062d \u0628\u0647 \u0639\u0628\u0631 \u0627\u0644\u0625\u0646\u062a\u0631\u0646\u062a \u0625\u0644\u0649 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629\u060c \u062a\u062d\u062a\u0641\u0638 \u062f\u0646\u064a\u0627 \u0628\u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u062e\u0644\u0641 \u062e\u0627\u062f\u0645 \u0645\u062d\u0645\u064a \u0628\u062c\u062f\u0627\u0631 \u0627\u0644\u062d\u0645\u0627\u064a\u0629. \u0648 \u0627\u0639\u062a\u0645\u062f\u062a \u062f\u0646\u064a\u0627 \u0628\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 ("\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629") \u0644\u0634\u0631\u062d \u0643\u064a\u0641\u064a\u0629 \u0642\u064a\u0627\u0645 \u0628\u062c\u0645\u0639 \u0648\u062a\u062e\u0632\u064a\u0646 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062e\u062f\u0645\u0627\u062a \u062f\u0646\u064a\u0627. \u0630\u0644\u0643\u060c \u0644\u0627 \u064a\u0645\u0643\u0646 \u0623\u0646 \u064a\u0643\u0648\u0646 \u0623\u064a \u0646\u0638\u0627\u0645 \u0622\u0645\u0646\u064b\u0627 \u0628\u0646\u0633\u0628\u0629 100\u066a \u0648\u0647\u0646\u0627\u0643 \u0627\u062d\u062a\u0645\u0627\u0644 \u0623\u0646\u0647 \u0639\u0644\u0649 \u0627\u0644\u0631\u063a\u0645 \u0645\u0646 \u0627\u0644\u062c\u0647\u0648\u062f \u0627\u0644\u0645\u0639\u0642\u0648\u0644\u0629 \u0627\u0644\u062a\u064a \u062a\u0628\u0630\u0644\u0647\u0627 MoApps\u060c \u0641\u0642\u062f \u064a\u0643\u0648\u0646 \u0647\u0646\u0627\u0643 \u0648\u0635\u0648\u0644 \u063a\u064a\u0631 \u0645\u0635\u0631\u062d \u0628\u0647 \u0625\u0644\u0649 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629. \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u062e\u062f\u0645\u0627\u062a\u060c \u0641\u0625\u0646\u0643 \u062a\u062a\u062d\u0645\u0644 \u0647\u0630\u0647 \u0627\u0644\u0645\u062e\u0627\u0637\u0631.\n\u0622\u062e\u0631\n\u064a\u0631\u062c\u0649 \u0627\u0644\u0627\u0646\u062a\u0628\u0627\u0647 \u0625\u0644\u0649 \u0627\u0644\u0637\u0628\u064a\u0639\u0629 \u0627\u0644\u0645\u0641\u062a\u0648\u062d\u0629 \u0644\u0628\u0639\u0636 \u0627\u0644\u0634\u0628\u0643\u0627\u062a \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0629 \u0648\u063a\u064a\u0631\u0647\u0627 \u0645\u0646 \u0627\u0644\u0645\u064a\u0632\u0627\u062a \u0627\u0644\u0645\u0641\u062a\u0648\u062d\u0629 \u0644\u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u0642\u062f \u062a\u0648\u0641\u0631\u0647\u0627 \u0644\u0643. \u064a\u0645\u0643\u0646\u0643 \u0627\u062e\u062a\u064a\u0627\u0631 \u0627\u0644\u0643\u0634\u0641 \u0639\u0646 \u0628\u064a\u0627\u0646\u0627\u062a \u0639\u0646\u0643 \u0641\u064a \u0633\u064a\u0627\u0642 \u0627\u0644\u0645\u0633\u0627\u0647\u0645\u0629 \u0628\u0627\u0644\u0645\u062d\u062a\u0648\u0649 \u0627\u0644\u0630\u064a \u064a\u0646\u0634\u0626\u0647 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0641\u064a \u0627\u0644\u062e\u062f\u0645\u0627\u062a. \u0623\u064a \u0628\u064a\u0627\u0646\u0627\u062a \u062a\u0643\u0634\u0641 \u0639\u0646\u0647\u0627 \u0641\u064a \u0623\u064a \u0645\u0646 \u0647\u0630\u0647 \u0627\u0644\u0645\u0646\u062a\u062f\u064a\u0627\u062a \u0623\u0648 \u0627\u0644\u0645\u062f\u0648\u0646\u0627\u062a \u0623\u0648 \u0627\u0644\u062f\u0631\u062f\u0634\u0627\u062a \u0623\u0648 \u0645\u0627 \u0634\u0627\u0628\u0647 \u0630\u0644\u0643 \u0647\u064a \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0639\u0627\u0645\u0629\u060c \u0648\u0644\u064a\u0633 \u0647\u0646\u0627\u0643 \u0623\u064a \u062a\u0648\u0642\u0639 \u0644\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0623\u0648 \u0627\u0644\u0633\u0631\u064a\u0629. \u062f\u0646\u064a\u0627 \u0644\u064a\u0633\u062a \u0645\u0633\u0624\u0648\u0644\u0629 \u0639\u0646 \u0623\u064a \u0628\u064a\u0627\u0646\u0627\u062a \u0634\u062e\u0635\u064a\u0629 \u062a\u062e\u062a\u0627\u0631 \u0646\u0634\u0631\u0647\u0627 \u0639\u0644\u0649 \u0627\u0644\u0645\u0644\u0623 \u0641\u064a \u0623\u064a \u0645\u0646 \u0647\u0630\u0647 \u0627\u0644\u0645\u0646\u062a\u062f\u064a\u0627\u062a.\n\u0625\u0630\u0627 \u0643\u0627\u0646 \u0639\u0645\u0631\u0643 \u0623\u0642\u0644 \u0645\u0646 15 \u0639\u0627\u0645\u064b\u0627 \u0623\u0648 \u0642\u0627\u0635\u0631\u064b\u0627 \u0641\u064a \u0628\u0644\u062f \u0625\u0642\u0627\u0645\u062a\u0643\u060c \u0641\u064a\u0631\u062c\u0649 \u0637\u0644\u0628 \u0625\u0630\u0646 \u0648\u0644\u064a \u0623\u0645\u0631\u0643 \u0627\u0644\u0642\u0627\u0646\u0648\u0646\u064a \u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0623\u0648 \u0627\u0644\u0648\u0635\u0648\u0644 \u0625\u0644\u064a\u0647\u0627. \u062a\u062a\u0639\u0627\u0645\u0644   \u0645\u0639 \u062e\u0635\u0648\u0635\u064a\u0629 \u0627\u0644\u0623\u0637\u0641\u0627\u0644 \u0639\u0644\u0649 \u0645\u062d\u0645\u0644 \u0627\u0644\u062c\u062f\u060c \u0648\u062a\u0634\u062c\u0639 \u0627\u0644\u0622\u0628\u0627\u0621 \u0648 / \u0623\u0648 \u0627\u0644\u0623\u0628\u0646\u0627\u0621 \u0639\u0644\u0649 \u062f\u0648\u0631 \u0646\u0634\u0637 \u0641\u064a \u062a\u062c\u0631\u0628\u0629 \u0623\u0637\u0641\u0627\u0644\u0647\u0645 \u0639\u0628\u0631 \u0627\u0644\u0625\u0646\u062a\u0631\u0646\u062a \u0641\u064a \u062c\u0645\u064a\u0639 \u0627\u0644\u0623\u0648\u0642\u0627\u062a. \u0644\u0627 \u062a\u062c\u0645\u0639 \u0639\u0646 \u0642\u0635\u062f \u0623\u064a \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0634\u062e\u0635\u064a\u0629 \u0645\u0646 \u0627\u0644\u0623\u0637\u0641\u0627\u0644 \u062f\u0648\u0646 \u0627\u0644\u0633\u0646 \u0627\u0644\u0645\u0630\u0643\u0648\u0631\u0629 \u0623\u0639\u0644\u0627\u0647\u060c \u0648\u0625\u0630\u0627 \u0639\u0644\u0645 \u062a\u0637\u0628\u064a\u0642 \u062f\u0646\u064a\u0627 \u0623\u0646 \u062f\u0646\u064a\u0627 \u0642\u062f \u0642\u0627\u0645 \u0639\u0646 \u063a\u064a\u0631 \u0642\u0635\u062f \u0628\u062c\u0645\u0639 \u0628\u064a\u0627\u0646\u0627\u062a \u0634\u062e\u0635\u064a\u0629 \u0645\u0646 \u0623\u0637\u0641\u0627\u0644 \u062f\u0648\u0646 \u0627\u0644\u0633\u0646 \u0627\u0644\u0645\u0630\u0643\u0648\u0631\u0629 \u0623\u0639\u0644\u0627\u0647\u060c \u0641\u0633\u062a\u062a\u062e\u0630 \u062f\u0646\u064a\u0627 \u0625\u062c\u0631\u0627\u0621\u0627\u062a \u0645\u0639\u0642\u0648\u0644\u0629 \u0644\u0645\u062d\u0648 \u0647\u0630\u0647 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0639\u0644\u0649 \u0627\u0644\u0641\u0648\u0631 \u0645\u0646 \u0633\u062c\u0644\u0627\u062a MoApps.\n\u064a\u062c\u0648\u0632 \u0644\u0640 \u062a\u062e\u0632\u064a\u0646 \u0648 / \u0623\u0648 \u0646\u0642\u0644 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0625\u0644\u0649 \u0627\u0644\u0634\u0631\u0643\u0627\u062a \u0627\u0644\u062a\u0627\u0628\u0639\u0629 \u0644\u0647\u0627 \u0648\u0634\u0631\u0643\u0627\u0626\u0647\u0627 \u062f\u0627\u062e\u0644 \u0648\u062e\u0627\u0631\u062c \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0623\u0639\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0648\u0631\u0648\u0628\u064a / \u0627\u0644\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a\u0629 \u0627\u0644\u0623\u0648\u0631\u0648\u0628\u064a\u0629 \u0648\u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629 \u0648\u0641\u0642\u064b\u0627 \u0644\u0644\u062a\u0634\u0631\u064a\u0639\u0627\u062a \u0627\u0644\u0625\u0644\u0632\u0627\u0645\u064a\u0629 \u0648\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647. \u0642\u062f \u062a\u0641\u0635\u062d \u0639\u0646 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0644\u0623\u0637\u0631\u0627\u0641 \u062b\u0627\u0644\u062b\u0629 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062f\u0645\u062c \u0627\u0644\u0634\u0631\u0643\u0629\u060c \u0623\u0648 \u062a\u0648\u062d\u064a\u062f\u0647\u0627\u060c \u0623\u0648 \u0625\u0639\u0627\u062f\u0629 \u0647\u064a\u0643\u0644\u062a\u0647\u0627\u060c \u0623\u0648 \u0628\u064a\u0639 \u062c\u0645\u064a\u0639 \u0623\u0633\u0647\u0645 \u0648 / \u0623\u0648 \u0623\u0635\u0648\u0644 MoApps \u0623\u0648 \u0623\u064a \u062a\u063a\u064a\u064a\u0631 \u0645\u0624\u0633\u0633\u064a \u0622\u062e\u0631\u060c \u0628\u0645\u0627 \u0641\u064a \u0630\u0644\u0643\u060c \u0639\u0644\u0649 \u0633\u0628\u064a\u0644 \u0627\u0644\u0645\u062b\u0627\u0644 \u0644\u0627 \u0627\u0644\u062d\u0635\u0631\u060c \u0623\u062b\u0646\u0627\u0621 \u0639\u0645\u0644\u064a\u0629 \u0627\u0644\u0639\u0646\u0627\u064a\u0629 \u0627\u0644\u0648\u0627\u062c\u0628\u0629 \u0634\u0631\u064a\u0637\u0629 \u0623\u0646 \u062a\u0633\u062a\u0645\u0631 \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 \u0641\u064a \u0627\u0644\u062a\u062d\u0643\u0645 \u0641\u064a \u0647\u0630\u0647 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629.\n\n\u062a\u0631\u0627\u062c\u0639 \u0628\u0627\u0646\u062a\u0638\u0627\u0645 \u0627\u0645\u062a\u062b\u0627\u0644\u0647\u0627 \u0644\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647. \u0625\u0630\u0627 \u062a\u0644\u0642\u062a \u062f\u0646\u064a\u0627 \u062a\u0642\u0648\u062f\u0645 \u0631\u0633\u0645\u064a\u0629 \u0645\u0643\u062a\u0648\u0628\u0629 \u0645\u0646\u0643\u060c \u0641\u0645\u0646 \u0633\u064a\u0627\u0633\u0629 MoApps \u0645\u062d\u0627\u0648\u0644\u0629 \u0627\u0644\u0627\u062a\u0635\u0627\u0644 \u0628\u0643 \u0645\u0628\u0627\u0634\u0631\u0629\u064b \u0644\u0645\u0639\u0627\u0644\u062c\u0629 \u0623\u064a \u0645\u0646 \u0645\u062e\u0627\u0648\u0641\u0643. \u0633\u062a\u062a\u0639\u0627\u0648\u0646 \u0645\u0639 \u0627\u0644\u0633\u0644\u0637\u0627\u062a \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629 \u0627\u0644\u0645\u062e\u062a\u0635\u0629\u060c \u0628\u0645\u0627 \u0641\u064a \u0630\u0644\u0643 \u0633\u0644\u0637\u0627\u062a \u062d\u0645\u0627\u064a\u0629 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a\u060c \u0644\u062d\u0644 \u0623\u064a \u0634\u0643\u0627\u0648\u0649 \u062a\u062a\u0639\u0644\u0642 \u0628\u062c\u0645\u0639 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0623\u0648 \u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0647\u0627 \u0623\u0648 \u0646\u0642\u0644\u0647\u0627 \u0623\u0648 \u0627\u0644\u0643\u0634\u0641 \u0639\u0646\u0647\u0627 \u0648\u0627\u0644\u062a\u064a \u0644\u0627 \u064a\u0645\u0643\u0646 \u062d\u0644\u0647\u0627 \u0648\u062f\u064a\u064b\u0627 \u0628\u064a\u0646\u0643 \u0648\u0628\u064a\u0646\u0647\u0627 MoApps.\n\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0637\u0631\u0641 \u0627\u0644\u062b\u0627\u0644\u062b\n\u0646\u062d\u0646 \u0646\u0633\u062a\u062e\u062f\u0645 \u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0637\u0631\u0641 \u0627\u0644\u062b\u0627\u0644\u062b \u0641\u064a \u062a\u0637\u0628\u064a\u0642\u0627\u062a\u0646\u0627. \u062a\u062c\u0645\u0639 \u0647\u0630\u0647 \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0648\u0641\u0642\u064b\u0627 \u0644\u0633\u064a\u0627\u0633\u0627\u062a \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0647\u0627. \u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0645\u0648\u0635\u0648\u0641\u0629 \u0623\u062f\u0646\u0627\u0647.\n\u062f\u0639\u0627\u064a\u0629\n\u062a\u0633\u0645\u062d \u0623\u0646\u0638\u0645\u0629 \u0639\u0631\u0636 \u0625\u0639\u0644\u0627\u0646\u0627\u062a \u0627\u0644\u062c\u0647\u0627\u062a \u0627\u0644\u062e\u0627\u0631\u062c\u064a\u0629 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0644\u0623\u063a\u0631\u0627\u0636 \u0627\u0644\u0627\u062a\u0635\u0627\u0644\u0627\u062a \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u064a\u0629 \u0627\u0644\u0645\u0639\u0631\u0648\u0636\u0629 \u0641\u064a \u0634\u0643\u0644 \u0644\u0627\u0641\u062a\u0627\u062a \u0648\u0625\u0639\u0644\u0627\u0646\u0627\u062a \u0623\u062e\u0631\u0649 \u0639\u0644\u0649 \u0627\u0639\u062a\u0645\u062f\u062a Donya \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 ("\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629") \u0644\u0634\u0631\u062d \u0643\u064a\u0641\u064a\u0629 \u0642\u064a\u0627\u0645 Donya \u0628\u062c\u0645\u0639 \u0648\u062a\u062e\u0632\u064a\u0646 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062e\u062f\u0645\u0627\u062a Donya. \u0627\u0639\u062a\u0645\u062f\u062a Donya \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 ("\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629") \u0644\u0634\u0631\u062d \u0643\u064a\u0641\u064a\u0629 \u0642\u064a\u0627\u0645 Donya \u0628\u062c\u0645\u0639 \u0648\u062a\u062e\u0632\u064a\u0646 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062e\u062f\u0645\u0627\u062a Donya. \u0627\u0639\u062a\u0645\u062f\u062a Donya \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 ("\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629") \u0644\u0634\u0631\u062d \u0643\u064a\u0641\u064a\u0629 \u0642\u064a\u0627\u0645 Donya \u0628\u062c\u0645\u0639 \u0648\u062a\u062e\u0632\u064a\u0646 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062e\u062f\u0645\u0627\u062a Donya. \u0627\u0639\u062a\u0645\u062f\u062a Donya \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 ("\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629") \u0644\u0634\u0631\u062d \u0643\u064a\u0641\u064a\u0629 \u0642\u064a\u0627\u0645 Donya \u0628\u062c\u0645\u0639 \u0648\u062a\u062e\u0632\u064a\u0646 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062e\u062f\u0645\u0627\u062a Donya. \u0627\u0639\u062a\u0645\u062f\u062a Donya \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 ("\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629") \u0644\u0634\u0631\u062d \u0643\u064a\u0641\u064a\u0629 \u0642\u064a\u0627\u0645 Donya \u0628\u062c\u0645\u0639 \u0648\u062a\u062e\u0632\u064a\u0646 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062e\u062f\u0645\u0627\u062a Donya. \u0627\u0639\u062a\u0645\u062f\u062a Donya \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 ("\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629") \u0644\u0634\u0631\u062d \u0643\u064a\u0641\u064a\u0629 \u0642\u064a\u0627\u0645 Donya \u0628\u062c\u0645\u0639 \u0648\u062a\u062e\u0632\u064a\u0646 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062e\u062f\u0645\u0627\u062a Donya. \u0627\u0639\u062a\u0645\u062f\u062a Donya \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 ("\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629") \u0644\u0634\u0631\u062d \u0643\u064a\u0641\u064a\u0629 \u0642\u064a\u0627\u0645 Donya \u0628\u062c\u0645\u0639 \u0648\u062a\u062e\u0632\u064a\u0646 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062e\u062f\u0645\u0627\u062a Donya. \u0627\u0639\u062a\u0645\u062f\u062a Donya \u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629 \u0647\u0630\u0647 ("\u0633\u064a\u0627\u0633\u0629 \u0627\u0644\u062e\u0635\u0648\u0635\u064a\u0629") \u0644\u0634\u0631\u062d \u0643\u064a\u0641\u064a\u0629 \u0642\u064a\u0627\u0645 Donya \u0628\u062c\u0645\u0639 \u0648\u062a\u062e\u0632\u064a\u0646 \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0641\u064a\u0645\u0627 \u064a\u062a\u0639\u0644\u0642 \u0628\u062e\u062f\u0645\u0627\u062a Donya.\u062a\u0637\u0628\u064a\u0642\u0627\u062a\u060c \u0631\u0628\u0645\u0627 \u0628\u0646\u0627\u0621\u064b \u0639\u0644\u0649 \u0627\u0647\u062a\u0645\u0627\u0645\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645.\nAdMob\n\u0646\u0633\u062a\u062e\u062f\u0645 Admob \u0645\u0646 Google \u0643\u062e\u0627\u062f\u0645 \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062a \u0627\u0644\u0631\u0626\u064a\u0633\u064a. \u064a\u0631\u062c\u0649 \u0627\u0644\u0627\u0637\u0644\u0627\u0639 \u0639\u0644\u0649 \u0633\u064a\u0627\u0633\u0629 \u062e\u0635\u0648\u0635\u064a\u0629 Admob - https://www.google.com/intl/en/policies/privacy/\n\u062a\u062d\u0644\u064a\u0644\u0627\u062a\n\u062a\u062a\u064a\u062d \u0644\u0646\u0627 \u062e\u062f\u0645\u0627\u062a \u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0627\u0644\u062c\u0647\u0627\u062a \u0627\u0644\u062e\u0627\u0631\u062c\u064a\u0629 \u0645\u0631\u0627\u0642\u0628\u0629 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0648\u062a\u062d\u0644\u064a\u0644\u0647\u060c \u0648\u0641\u0647\u0645 \u062c\u0645\u0647\u0648\u0631\u0643 \u0648\u0633\u0644\u0648\u0643 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0628\u0634\u0643\u0644 \u0623\u0641\u0636\u0644.\n\u0645\u0636\u0637\u0631\u0628\n\u0646\u062d\u0646 \u0646\u0633\u062a\u062e\u062f\u0645 \u0628\u0644\u064a\u0633\u0643 \u0644\u062c\u0645\u0639 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0633\u062c\u0644 \u0648\u0645\u0631\u0627\u0642\u0628\u062a\u0647\u0627 \u0648\u062a\u062d\u0644\u064a\u0644\u0647\u0627\u060c \u0628\u0645\u0627 \u0641\u064a \u0630\u0644\u0643 \u062a\u0643\u0631\u0627\u0631 \u0627\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645\u060c \u0648\u0637\u0648\u0644 \u0627\u0644\u0648\u0642\u062a \u0627\u0644\u0630\u064a \u064a\u0642\u0636\u064a\u0647 \u0627\u0644\u062a\u0637\u0628\u064a\u0642\u060c \u0645\u0646 \u0623\u062c\u0644 \u062a\u062d\u0633\u064a\u0646 \u0648\u0638\u0627\u0626\u0641 \u062a\u0637\u0628\u064a\u0642\u0627\u062a\u0646\u0627 \u0648\u0633\u0647\u0648\u0644\u0629 \u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0647\u0627. \u064a\u0631\u062c\u0649 \u0627\u0644\u0627\u0637\u0644\u0627\u0639 \u0639\u0644\u0649 \u0633\u064a\u0627\u0633\u0629 \u062e\u0635\u0648\u0635\u064a\u0629 Flurry - https://www.plesk.com/plesk-free-\n\u062a\u062d\u0644\u064a\u0644\u0627\u062a google\nGoogle Analytics \u0647\u064a \u062e\u062f\u0645\u0629 \u062a\u062d\u0644\u064a\u0644 \u062a\u0642\u062f\u0645\u0647\u0627 \u0634\u0631\u0643\u0629 Google Inc.. \u062a\u0633\u062a\u062e\u062f\u0645 Google \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0645 \u062c\u0645\u0639\u0647\u0627 \u0644\u062a\u062a\u0628\u0639 \u0648\u0641\u062d\u0635 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 DonyaApps\u060c \u0644\u0625\u0639\u062f\u0627\u062f \u062a\u0642\u0627\u0631\u064a\u0631 \u0639\u0646 \u0623\u0646\u0634\u0637\u0629 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0648\u0645\u0634\u0627\u0631\u0643\u062a\u0647\u0627 \u0645\u0639 \u062e\u062f\u0645\u0627\u062a Google \u0627\u0644\u0623\u062e\u0631\u0649. \u0642\u062f \u062a\u0633\u062a\u062e\u062f\u0645 Google \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0644\u062a\u0647\u064a\u0626\u0629 \u0625\u0639\u0644\u0627\u0646\u0627\u062a \u0634\u0628\u0643\u0629 \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062a \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0647\u0627 \u0648\u062a\u062e\u0635\u064a\u0635\u0647\u0627. (http://www.google.com/intl/en/policies/privacy/)\n\u0627\u0644\u0627\u0645\u062a\u062b\u0627\u0644 \u0644\u0642\u0627\u0646\u0648\u0646 \u062d\u0645\u0627\u064a\u0629 \u062e\u0635\u0648\u0635\u064a\u0629 \u0627\u0644\u0623\u0637\u0641\u0627\u0644 \u0639\u0644\u0649 \u0627\u0644\u0625\u0646\u062a\u0631\u0646\u062a\n\u0646\u062d\u0646 \u0645\u0644\u062a\u0632\u0645\u0648\u0646 \u0628\u0645\u062a\u0637\u0644\u0628\u0627\u062a \u0642\u0627\u0646\u0648\u0646 \u062d\u0645\u0627\u064a\u0629 \u062e\u0635\u0648\u0635\u064a\u0629 \u0627\u0644\u0623\u0637\u0641\u0627\u0644 \u0639\u0644\u0649 \u0627\u0644\u0625\u0646\u062a\u0631\u0646\u062a (COPPA) \u060c \u0648\u0644\u0627 \u0646\u062c\u0645\u0639 \u0623\u064a \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0634\u062e\u0635\u064a\u0629 \u0645\u0646 \u0623\u064a \u0634\u062e\u0635 \u064a\u0642\u0644 \u0639\u0645\u0631\u0647 \u0639\u0646 13 \u0639\u0627\u0645\u064b\u0627. \u062c\u0645\u064a\u0639 \u0645\u0646\u062a\u062c\u0627\u062a\u0646\u0627 \u0648\u062e\u062f\u0645\u0627\u062a\u0646\u0627 \u0645\u0648\u062c\u0647\u0629 \u0625\u0644\u0649 \u0627\u0644\u0623\u0634\u062e\u0627\u0635 \u0627\u0644\u0630\u064a\u0646 \u0644\u0627 \u062a\u0642\u0644 \u0623\u0639\u0645\u0627\u0631\u0647\u0645 \u0639\u0646 13 \u0639\u0627\u0645\u064b\u0627 \u0623\u0648 \u0623\u0643\u0628\u0631\n\n</p>\n<p>\n\u0627\u062a\u0635\u0644 \u0628\u0646\u0627\n</p>\n<p>\n<li>\nwww.donya.com.tn\n\n</li> \n<li>\n+447594966051 whatsApp\n</li> \n<li>\n00971588117248\n</li> \n<li>\n\u0627\u0644\u0645\u0647\u0646\u062f\u0633 \u0645\u0639\u0627\u0648\u064a\u0629 \u0627\u0644\u062d\u0633\u064a\u0646\u064a\n\n</li> \n<li>\n\u0645\u0624\u0633\u0633 \u0648\u0631\u0626\u064a\u0633 \u0645\u062c\u0644\u0633 \u0627\u0644\u0625\u062f\u0627\u0631\u0629\n</li> \n</p>\n\n\n':"\n<p></p>\n<p> Donya has adopted this privacy policy (\u201cPrivacy Policy\u201d) to explain how Donya collects, stores, and uses the information collected in connection with Donya\u2019s Services.\n BY INSTALLING, USING, REGISTERING TO OR OTHERWISE ACCESSING THE SERVICES, YOU AGREE TO THIS PRIVACY POLICY AND GIVE AN EXPLICIT AND INFORMED CONSENT TO THE PROCESSING OF YOUR PERSONAL DATA IN ACCORDANCE WITH THIS PRIVACY POLICY. IF YOU DO NOT AGREE TO THIS PRIVACY POLICY, PLEASE DO NOT INSTALL, USE, REGISTER TO OR OTHERWISE ACCESS THE SERVICES. Donya reserves the right to modify this Privacy Policy at reasonable times, so please review it frequently. If Donya makes material or significant changes to this Privacy Policy, Donya may post a notice on Donyawebsite)www.donya.com.tn) along with the updated Privacy Policy. Your continued use of Services will signify your acceptance of the changes to this Privacy Policy.\n\nNon-personal data\nFor purposes of this Privacy Policy, \u201cnon-personal data\u201d means information that does not directly identify you. The types of non-personal data Donya may collect and use include, but are not limited to: application properties, including, but not limited to application name, package name and icon installed on your device. Your checkin (include like, recommendation) of a Donya will be disclosed to all Donya  users.\nDonya may use and disclose to MoApps\u2019s partners and contractors the collected non-personal data for purposes of analyzing usage of the Services, advertisement serving, managing and providing the Services and to further develop the Services and other Donya services and products.\nPersonal Data\nFor purposes of this Privacy Policy, \u201cpersonal data\u201d means personally identifiable information that specifically identifies you as an individual.\nPersonal information collected by Donya information voluntarily provided to us by you when you create your account or change your account \ninformation. The information includes your facebook id google id, name, gender, location and your friends\u2019id on facebook. Donya also stores your  checkins, likes, dislikes, recommendations and messages.\nDonya may use collected personal data for purposes of analyzing usage of the Services, providing customer and technical support, managing and providing Services (including managing advertisement serving) and to further develop the Services and other Donya services and products. Donya may combine non-personal data with personal data\nPlease note that certain features of the Services may be able to connect to your social networking sites to obtain additional information about you. In such cases, Donya may be able to collect certain information from your social networking profile when your social networking site permits it, and when you consent to allow your social networking site to make that information available to My Apps. This information may include, but is not limited to, your name, profile picture, gender, user ID, email address, your country,\nyour language, your time zone, the organizations and links on your profile page, the names and profile pictures of your social networking site \u201cfriends\u201d and other information you have included in your social networking site profile. Donya may associate and/or combine as well as use information collected by Donya and/or obtained through such social networking sites in accordance with this Privacy Policy.\nDisclosure and Transfer of Personal Data\nDonya collects and processes personal data on a voluntary basis and it is not in the business of selling your personal data to third parties. Personal data may, however, occasionally be disclosed in accordance with applicable legislation and this Privacy Policy. Additionally, Donya may disclose personal data to its parent companies and its subsidiaries in accordance with this Privacy Policy.\nDonya  may hire agents and contractors to collect and process personal data on Mo Apps\u2019s behalf and in such cases such agents and contractors will be instructed to comply with our Privacy Policy and to use personal data only for the purposes for which the third party has been engaged by MoApps. These agents and contractors may not use your personal data for their own marketing purposes. Donya may use third party service providers such as credit card processors, e-mail service providers, shipping agents, data analyzers and business intelligence providers. Donya the right to share your personal data as necessary for the aforementioned third parties to provide their services for MoApps. Donya is not liable for the acts and omissions of these third parties, except as provided by mandatory law.\nDonya may disclose your personal data to third parties as required by law enforcement or other government officials in connection with an investigation of fraud, intellectual property infringements, or other activity that is illegal or may expose you or Donya to legal liability. Donya may also disclose your personal data to third parties when Donya a reason to believe that a disclosure is necessary to address potential or actual injury or interference with MoApps\u2019s rights, property, operations, users or others who may be harmed or may suffer loss or damage, or Donya believes that such disclosure is necessary to protect Donya\u2019s rights, combat fraud and/or comply with a judicial proceeding, court order, or legal process served on MoApps. To the extent \u2026\nSafeguards\nDonya  follows generally accepted industry standards and maintains reasonable safeguards to attempt to ensure the security, integrity and privacy of the information in MoApps\u2019s possession. Only those persons with a need to process your personal data in connection with the fulfillment of their tasks in accordance with the purposes of this Privacy Policy and for the purposes of performing technical maintenance, have access to your personal data in MoApps\u2019s possession. Personal data collected by Donya is stored in secure operating environments that are not available to the public. To prevent unauthorized on-line access to personal data, Donya maintains personal data behind a firewall-protected server. However, no system can be 100% secure and there \u2026\nOther\nPlease be aware of the open nature of certain social networking and other open features of the Services Donya may make available to you. You may choose to disclose data about yourself in the course of contributing user generated content to the Services. Any data that you disclose in any of these forums, blogs, chats or the like is public information, and there is no expectation of privacy or confidentiality. Donya is not responsible for any personal data you choose to make public in any of these forums.\nIf you are under 15 years of age or a minor in your country of residence, please ask your legal guardian\u2019s permission to use or access the Services. Donya takes children\u2019s privacy seriously, and encourages parents and/or guardians to play an active rol\u2026\nDonys  may store and/or transfer your personal data to its affiliates and partners in and outside of EU/EEA member states and the United States in accordance with mandatory legislation and this Privacy Policy. Donya may disclose your personal data to third parties in connection with a corporate merger, consolidation, restructuring, the sale of substantially all of MoApps\u2019s stock and/or assets or other corporate change, including, without limitation, during the course of any due diligence process provided, however, that this Privacy Policy shall continue to govern such personal data.\nDonya regularly reviews its compliance with this Privacy Policy. If Donya receives a formal written complaint from you, it is MoApps\u2019s policy to attempt to contact you directly to address any of your concerns. Donya will cooperate with the appropriate governmental authorities, including data protection authorities, to resolve any complaints regarding the collection, use, transfer or disclosure of personal data that cannot be amicably resolved between you and MoApps.\n3rd party services\nWe use 3rd party services in our apps. These services collect usage data in compliance with their Privacy Policies. The services are described below.\nAdvertising\n3rd party ad serving systems allow user data to be utilized for advertising communication purposes displayed in the form of banners and other advertisements on Donya apps, possibly based on user interests.\nAdmob\nWe use Admob by Google as the main ad server. Please see Admob Privacy Policy \u2013 https://www.google.com/intl/en/policies/privacy/\nAnalytics \n3rd party analytics services allow us to monitor and analyze app usage, better understand your audience and user behavior.\nFlurry\nWe use Plesk to collect, monitor and analyze log data, including frequency of use, length of time spent in the app, in order to improve functionality and user-friendliness of our apps. Please see Flurry Privacy Policy \u2013 https://www.plesk.com/plesk-free-\nGoogle Analytics\nGoogle Analytics is an analysis service provided by Google Inc. Google utilizes the collected data to track and examine the use of Donya Apps, to prepare reports on user activities and share them with other Google services. Google may use the data to contextualize and personalize the ads of its own advertising network. (http://www.google.com/intl/en/policies/privacy/)\nChildren\u2019s Online Privacy Protection Act Compliance\nWe are in compliance with the requirements of COPPA, we do not collect any personal information from anyone under 13 years of age. Our products and services are all directed to people who are at least 13 years old or older.\nContact Us\ninfo@donya.com.tn\nwww.donya.com.tn\n+447594966051 WhtsApp\n+971588117248\n Engineer HOUSSAINI MAOUIA\nFounder and Chairman of the Board\n\n </p>\n</p>\n<p>\nContact Us\n\n</p>\n<p>\n<li>\nwww.donya.com.tn\n\n</li> \n<li>\n+447594966051 whatsApp\n</li> \n<li>\n00971588117248\n</li> \n<li>\n Engineer HOUSSAINI MAOUIA\n\n</li> \n<li>\nFounder and Chairman of the Board\n</li> \n</p>\n\n\n\n",p=A.l2(s,s,B.o,s,s,s,s,s,s,s,s,14,s,s,s,s,!0,s,s,s,s,s,s,s,s)
 return A.az7(new A.zS(r,!0,0,B.l,new A.Ye(s,s,1/0,56),s),s,new A.cP(B.oL,A.azc(new A.BW(!0,s,s,s,s,!0,q,A.b_w(),s,s,s,s,new A.E7([!0,!1,!0]),B.fZ,p,s),s,B.ad),s),s)}}
 A.asb.prototype={
 $0(){A.fO(this.a,!1).dD(0)},
@@ -86595,7 +86601,7 @@ A.dJ.prototype={
 gcK(){return this.a.a},
 gm(a){return this.c-this.b},
 gbC(a){return A.iy(this.a,this.b)},
-gb5(a){return A.iy(this.a,this.c)},
+gb7(a){return A.iy(this.a,this.c)},
 gaU(a){return A.cs(B.c5.bN(this.a.c,this.b,this.c),0,null)},
 gb2(a){var s=this,r=s.a,q=s.c,p=r.t0(q)
 if(r.Bl(q)===0&&p!==0){if(q-s.b===0)return p===r.b.length-1?"":A.cs(B.c5.bN(r.c,r.nQ(p),r.nQ(p+1)),0,null)}else q=p===r.b.length-1?r.c.length:r.nQ(p+1)
@@ -86637,7 +86643,7 @@ if(g==null)g=j.a(g)
 f=g.a
 e=f.gbC(f)
 e=e.gdr(e)
-d=f.gb5(f)
+d=f.gb7(f)
 if(e!==d.gdr(d)){e=f.gbC(f)
 f=e.gdr(e)===i&&a1.aex(B.c.M(h,0,f.gbC(f).ge7()))}else f=!1
 if(f){c=B.b.bW(r,a2)
@@ -86652,8 +86658,8 @@ k=a!=null
 if(k){j=a.a
 g=j.gbC(j)
 g=g.gdr(g)===i?j.gbC(j).ge7():0
-f=j.gb5(j)
-a1.akk(h,g,f.gdr(f)===i?j.gb5(j).ge7():h.length,p)}else a1.yT(h)
+f=j.gb7(j)
+a1.akk(h,g,f.gdr(f)===i?j.gb7(j).ge7():h.length,p)}else a1.yT(h)
 q.a+="\n"
 if(k)a1.akl(n,a,r)
 for(k=l.length,a0=0;a0<k;++a0){l[a0].toString
@@ -86678,7 +86684,7 @@ else{i=l.a
 i=i.gbC(i)
 j=i.gdr(i)}if(k)h=null
 else{i=l.a
-i=i.gb5(i)
+i=i.gb7(i)
 h=i.gdr(i)}if(s&&l===c){g.iE(new A.a8J(g,j,a),r)
 n=!0}else if(n)g.iE(new A.a8K(g,l),r)
 else if(k)if(f.a)g.iE(new A.a8L(g),f.b)
@@ -86691,7 +86697,7 @@ s.iE(new A.a8D(s,a,b,c),d)
 s.yT(B.c.M(a,c,a.length))},
 akl(a,b,c){var s,r,q=this,p=q.b,o=b.a,n=o.gbC(o)
 n=n.gdr(n)
-s=o.gb5(o)
+s=o.gb7(o)
 if(n===s.gdr(s)){q.FT()
 o=q.r
 o.a+=" "
@@ -86707,8 +86713,8 @@ o=q.r
 o.a+=" "
 q.yQ(a,c,b)
 q.iE(new A.a8F(q,a,b),p)
-o.a+="\n"}else{n=o.gb5(o)
-if(n.gdr(n)===s){r=o.gb5(o).ge7()===a.a.length
+o.a+="\n"}else{n=o.gb7(o)
+if(n.gdr(n)===s){r=o.gb7(o).ge7()===a.a.length
 if(r&&!0){A.aJL(c,b)
 return}q.FT()
 o=q.r
@@ -86756,7 +86762,7 @@ $S:532}
 A.a8v.prototype={
 $1(a){var s=a.a,r=s.gbC(s)
 r=r.gdr(r)
-s=s.gb5(s)
+s=s.gb7(s)
 return r!==s.gdr(s)},
 $S:108}
 A.a8x.prototype={
@@ -86794,7 +86800,7 @@ B.b.O(j.d,i)}return d},
 $S:537}
 A.a8y.prototype={
 $1(a){var s=a.a
-s=s.gb5(s)
+s=s.gb7(s)
 return s.gdr(s)<this.a.b},
 $S:108}
 A.a8P.prototype={
@@ -86825,7 +86831,7 @@ if(q.d===r){s=q.b
 s.iE(new A.a8H(p,s),p.b)
 p.a=!0
 if(p.b==null)p.b=s.b}else{if(q.r===r){r=q.f.a
-s=r.gb5(r).ge7()===s.a.length}else s=!1
+s=r.gb7(r).ge7()===s.a.length}else s=!1
 r=q.b
 if(s)r.r.a+="\u2514"
 else r.iE(new A.a8I(r,o),p.b)}}},
@@ -86842,7 +86848,7 @@ $0(){var s=this
 return s.a.yT(B.c.M(s.b,s.c,s.d))},
 $S:0}
 A.a8E.prototype={
-$0(){var s,r,q=this.a,p=this.c.a,o=p.gbC(p).ge7(),n=p.gb5(p).ge7()
+$0(){var s,r,q=this.a,p=this.c.a,o=p.gbC(p).ge7(),n=p.gb7(p).ge7()
 p=this.b.a
 s=q.Dp(B.c.M(p,0,o))
 r=q.Dp(B.c.M(p,o,n))
@@ -86859,7 +86865,7 @@ A.a8G.prototype={
 $0(){var s,r=this,q=r.a
 if(r.b)q.r.a+=B.c.ag("\u2500",3)
 else{s=r.d.a
-q.S3(r.c,Math.max(s.gb5(s).ge7()-1,0),!1)}},
+q.S3(r.c,Math.max(s.gb7(s).ge7()-1,0),!1)}},
 $S:0}
 A.a8N.prototype={
 $0(){var s=this.b,r=s.r,q=this.a.a
@@ -86872,14 +86878,14 @@ A.fA.prototype={
 i(a){var s,r,q=this.a,p=q.gbC(q)
 p=p.gdr(p)
 s=q.gbC(q).ge7()
-r=q.gb5(q)
-q=""+"primary "+(""+p+":"+s+"-"+r.gdr(r)+":"+q.gb5(q).ge7())
+r=q.gb7(q)
+q=""+"primary "+(""+p+":"+s+"-"+r.gdr(r)+":"+q.gb7(q).ge7())
 return q.charCodeAt(0)==0?q:q}}
 A.apr.prototype={
 $0(){var s,r,q,p,o=this.a
 if(!(t.D_.b(o)&&A.awo(o.gb2(o),o.gaU(o),o.gbC(o).ge7())!=null)){s=o.gbC(o)
 s=A.SH(s.gcj(s),0,0,o.gcK())
-r=o.gb5(o)
+r=o.gb7(o)
 r=r.gcj(r)
 q=o.gcK()
 p=A.aZQ(o.gaU(o),10)
@@ -86929,16 +86935,16 @@ else if(r.gcj(r)<q.gcj(q))throw A.c(A.bn("End "+r.i(0)+" must come after start "
 else{s=this.c
 if(s.length!==q.Hk(r))throw A.c(A.bn('Text "'+s+'" must be '+q.Hk(r)+" characters long.",null))}},
 gbC(a){return this.a},
-gb5(a){return this.b},
+gb7(a){return this.b},
 gaU(a){return this.c}}
 A.Fo.prototype={
 gcK(){return this.gbC(this).gcK()},
-gm(a){var s,r=this,q=r.gb5(r)
+gm(a){var s,r=this,q=r.gb7(r)
 q=q.gcj(q)
 s=r.gbC(r)
 return q-s.gcj(s)},
 aX(a,b){var s=this,r=s.gbC(s).aX(0,b.gbC(b))
-return r===0?s.gb5(s).aX(0,b.gb5(b)):r},
+return r===0?s.gb7(s).aX(0,b.gb7(b)):r},
 VT(a,b,c){var s,r,q=this,p=q.gbC(q)
 p=""+("line "+(p.gdr(p)+1)+", column "+(q.gbC(q).ge7()+1))
 if(q.gcK()!=null){s=q.gcK()
@@ -86952,11 +86958,11 @@ if(!t.D_.b(s)&&s.gm(s)===0)return""
 return A.aRL(s,b).aqO(0)},
 k(a,b){var s=this
 if(b==null)return!1
-return t.wq.b(b)&&s.gbC(s).k(0,b.gbC(b))&&s.gb5(s).k(0,b.gb5(b))},
+return t.wq.b(b)&&s.gbC(s).k(0,b.gbC(b))&&s.gb7(s).k(0,b.gb7(b))},
 gu(a){var s=this
-return A.af(s.gbC(s),s.gb5(s),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.af(s.gbC(s),s.gb7(s),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this
-return"<"+A.H(s).i(0)+": from "+s.gbC(s).i(0)+" to "+s.gb5(s).i(0)+' "'+s.gaU(s)+'">'},
+return"<"+A.H(s).i(0)+": from "+s.gbC(s).i(0)+" to "+s.gb7(s).i(0)+' "'+s.gaU(s)+'">'},
 $iby:1,
 $ikX:1}
 A.mx.prototype={
@@ -89034,7 +89040,7 @@ s.bc=s.aV
 s.bO=s.bj
 s.mq=s.en
 s.dI=s.c0
-s.b4=s.p
+s.b6=s.p
 s.eC=s.c1
 s=A.as.prototype
 s.a1W=s.aP
